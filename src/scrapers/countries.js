@@ -1,31 +1,37 @@
-const axios = require('axios')
-const cheerio = require('cheerio')
+const puppeteer = require('puppeteer')
 
-const uri = 'https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data#covid19-container'
+const uri = 'https://news.google.com/covid19/map?hl=pt-BR&gl=BR&ceid=BR:pt-419'
 
 module.exports = async () => {
-    const res = await axios.get(uri)
-    const data = res.data
-    const $ = cheerio.load(data)
+    const browser = await puppeteer.launch()
+    const page = await browser.newPage()
 
-    const table = $('#thetable')
-    const rows = $('tbody tr', table).toArray().filter(row => $(row).attr('class') !== 'sortbottom')
-    rows.splice(0, 2)
-    
-    const results = []
+    await page.setRequestInterception(true)
+    const blockedResources = ['stylesheet', 'image', 'media', 'font', 'texttrack', 'xhr', 'fetch', 'eventsource', 'websocket', 'manifest', 'other']
+    page.on('request', (req) => {
+        if (blockedResources.indexOf(req.resourceType()) !== -1) req.abort()
+        else req.continue()
+    })
 
-    for (let row of rows ) {
-        const ths = $('th', row)
-        const tds = $('td', row)
+    await page.goto(uri)
+    await page.hover('div[jsaction="pSI0Dc:mMUZad;rcuQ6b:npT2md;c0v8t:gmfnwb; mouseover:gmfnwb; touchstart:gmfnwb;"]')
 
-        results.push({
-            icon: `https:${$('img', ths[0]).attr('src')}`,
-            country: $('a', ths[1]).text().replace(/\[.*]/, ''),
-            confirmed:  $(tds[0]).text().replace(/\n/, ''),
-            death: $(tds[1]).text().replace(/\n/, ''),
-            recovered: $(tds[2]).text().replace(/\n/, ''),
+    const results = await page.evaluate(() => {
+        const trs = Array.from(document.querySelectorAll('table tbody tr'))
+        trs.shift()
+        
+        const data = trs.map((row, i) => {
+            const tds = row.querySelectorAll('td')
+            return {
+                country: row.querySelector('th div span').textContent,
+                confirmed: tds[0].textContent,
+                recovered: tds[2].textContent,
+                death: tds[3].textContent
+            }
         })
-    }
+        return data
+    })
 
+    await browser.close()
     return results
 }
