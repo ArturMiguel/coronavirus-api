@@ -1,0 +1,24 @@
+{
+    "name": "coronavirus-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ArturMiguel/coronavirus-api.git"
+    },
+    "keywords": [],
+    "author": "ArturMiguel",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ArturMiguel/coronavirus-api/issues"
+    },
+    "homepage": "https://github.com/ArturMiguel/coronavirus-api#readme",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "cheerio": "^1.0.0-rc.3",
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    }
+}
