@@ -2,7 +2,7 @@ const countriesScraper = require('../scrapers/countries')
 
 class CountryController {
     async getCountries(req, res) {
-        const countries = await countriesScraper()
+        const countries = await countriesScraper.countries()
         res.send(countries)
     }
 
@@ -10,12 +10,10 @@ class CountryController {
         const search = req.params.country
         if (!search) return req.status(400).send({ message: 'País não informado!' })
 
-        const countries = await countriesScraper()
-        const f = countries.find(c => c.country.toLocaleLowerCase() === search.toLocaleLowerCase())
+        const country = await countriesScraper.country(search)
+        if (country.length <= 0) return res.status(404).send({ message: 'País não encontrado!' })
 
-        if (!f) return res.status(404).send({ message: 'País não encontrado!' })
-
-        return res.send(f)
+        return res.send(country)
     }
 }
 
