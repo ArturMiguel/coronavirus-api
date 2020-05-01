@@ -10,7 +10,6 @@ class AppController {
 
     middlewares() {
         this.express.use(cors())
-        this.express.use(express.json())
     }
 
     routes() {

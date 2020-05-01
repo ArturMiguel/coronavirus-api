@@ -1,20 +1,19 @@
-const countriesScraper = require('../scrapers/countries')
+const coronavirusData = require('../scrapers/coronavirus-data.json') 
 
 class CountryController {
-    async getCountries(req, res) {
-        const countries = await countriesScraper.countries()
-        res.send(countries)
+    getCountries(req, res) {
+        res.send(coronavirusData)
     }
 
-    async getCountry(req, res) {
+    getCountry(req, res) {
         const search = req.params.country
         if (!search) return req.status(400).send({ message: 'País não informado!' })
 
-        const country = await countriesScraper.country(search)
-        if (country.length <= 0) return res.status(404).send({ message: 'País não encontrado!' })
+        const country = coronavirusData.filter(data => data.country.toLowerCase() === search.toLowerCase())
+        if (country.length <= 0) return res.status(400).send({ message: 'País não encontrado!' })
 
         return res.send(country)
     }
 }
 
-module.exports = new CountryController() 
+module.exports = new CountryController()

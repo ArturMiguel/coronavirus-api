@@ -1,14 +1,23 @@
-const browser = require('./browser')
+const puppeteer = require('puppeteer')
+const fs = require('fs')
 
 const uri = 'https://news.google.com/covid19/map?hl=pt-BR&gl=BR&ceid=BR:pt-419'
 
-exports.countries = async () => {
-    const page = await browser()
+module.exports = async () => {
+    const browser = await puppeteer.launch()
+    const page = await browser.newPage()
+
+    await page.setRequestInterception(true)
+    const blockedResources = ['stylesheet', 'image', 'media', 'font', 'texttrack', 'xhr', 'fetch', 'eventsource', 'websocket', 'manifest', 'other']
+    page.on('request', (req) => {
+        if (blockedResources.indexOf(req.resourceType()) !== -1) req.abort()
+        else req.continue()
+    })
 
     await page.goto(uri)
     await page.hover('div[jsaction="pSI0Dc:mMUZad;rcuQ6b:npT2md;c0v8t:gmfnwb; mouseover:gmfnwb; touchstart:gmfnwb;"]')
 
-    const results = await page.$$eval('table[class="pH8O4c"] tbody tr', (rows) => {
+    await page.$$eval('table[class="pH8O4c"] tbody tr', (rows) => {
         return rows.map((row) => {
             const tds = row.querySelectorAll('td')
             const spans = row.querySelectorAll('th div span')
@@ -19,33 +28,11 @@ exports.countries = async () => {
                 death: tds[3].textContent
             }
         })
+    }).then((results) => {
+        fs.writeFileSync(`${__dirname}/coronavirus-data.json`, JSON.stringify(results))
+    }).catch((err) => {
+        console.log('Erro ao recuperar os últimos dados!\n', new Error(err).message)
     })
 
-    await page.close()
-    return results
-}
-
-exports.country = async (search) => {
-    const page = await browser()
-
-    await page.goto(uri)
-    await page.hover('div[jsaction="pSI0Dc:mMUZad;rcuQ6b:npT2md;c0v8t:gmfnwb; mouseover:gmfnwb; touchstart:gmfnwb;"]')
-
-    const result = await page.$$eval('table[class="pH8O4c"] tbody tr', (rows, search) => rows.filter((row) => {
-        const spans = row.querySelectorAll('th div span')
-        const countryName = spans[spans.length - 1].textContent
-        return countryName.toLowerCase() === search.toLowerCase()
-    }).map((row) => {
-        const tds = row.querySelectorAll('td')
-        const spans = row.querySelectorAll('th div span')
-        return {
-            country: spans[spans.length - 1].textContent,
-            confirmed: tds[0].textContent,
-            recovered: tds[2].textContent,
-            death: tds[3].textContent
-        }
-    }), search)
-
-    await page.close()
-    return result
+    await browser.close()
 }
