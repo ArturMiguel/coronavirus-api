@@ -9,8 +9,12 @@ class CountryController {
         const search = req.params.country
         if (!search) return req.status(400).send({ message: 'País não informado!' })
 
-        const country = coronavirusData.filter(data => data.country.toLowerCase() === search.toLowerCase())
-        if (country.length <= 0) return res.status(400).send({ message: 'País não encontrado!' })
+        String.prototype.normalizeStr = function() {
+            return this.toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        }
+
+        const country = coronavirusData.filter(data => data.country.normalizeStr() === search.normalizeStr())
+        if (country.length === 0) return res.status(400).send({ message: 'País não encontrado!' })
 
         return res.send(country)
     }

@@ -5,6 +5,9 @@ app.listen(process.env.PORT || 3000, () => {
     console.log('Server started!')
 
     setInterval(async () => {
-        await countriesScraper()
-    }, 1000 * 60 * 60 * 12)
+        console.log('Atualizando dados...')
+        await countriesScraper().then(() => {
+            console.log('Os dados foram atualizados!')
+        })
+    }, 1000 * 60 * 60 * 6)
 })
