@@ -20,8 +20,8 @@
     "/api/countries" : {
       "get" : {
         "tags" : [ "Countries" ],
-        "summary" : "Retorna dados do coronavírus em cada país e de seus estados.",
-        "description" : "Retorna os dados quantitativos de cada país e de seus estados. Alguns países e estados podem não estar disponíveis pois a fonte onde os dados são coletados não possui registros deles. A API atualiza esses dados a cada 6 horas.",
+        "summary" : "Retorna os dados sobre o coronavírus em todos os países disponíveis e seus estados.",
+        "description" : "Alguns países e estados podem não estar disponíveis pois a fonte onde os dados são coletados não possui registros deles. A API atualiza esses dados a cada 6 horas.",
         "responses" : {
           "200" : {
             "description" : "ok",
@@ -38,8 +38,8 @@
     "/api/countries/{country}" : {
       "get" : {
         "tags" : [ "Countries" ],
-        "summary" : "Consulta um país pelo nome e retorna seus dados quantitativos do coronavírus e de seus estados.",
-        "description" : "Retorna os dados quantitativos do país buscado e de seus estados. Alguns países e estados podem não estar disponíveis pois a fonte onde os dados são coletados não possui registros deles. A API atualiza esses dados a cada 6 horas.",
+        "summary" : "Consulta um país pelo nome e retorna seus dados sobre o coronavírus e de seus estados.",
+        "description" : "Alguns países e estados podem não estar disponíveis pois a fonte onde os dados são coletados não possui registros deles. A API atualiza esses dados a cada 6 horas.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "country",
@@ -64,8 +64,8 @@
     "/api/states/{state}" : {
       "get" : {
         "tags" : [ "States" ],
-        "summary" : "Consulta um estado pelo nome e retorna seus dados quantitativos do coronavírus.",
-        "description" : "Retorna os dados quantitativos do estado buscado. Alguns estados podem não estar disponíveis pois a fonte onde os dados são coletados não possuí registros deles. A API atualiza esses dados a cada 6 horas.",
+        "summary" : "Consulta um estado pelo nome e retorna seus dados sobre o coronavírus.",
+        "description" : "Alguns estados podem não estar disponíveis pois a fonte onde os dados são coletados não possuí registros deles. A API atualiza esses dados a cada 6 horas.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "state",

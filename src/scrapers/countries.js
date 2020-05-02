@@ -46,8 +46,6 @@ module.exports = async () => {
 
             await page.goto(stateUri)
 
-            console.log(country.country, stateUri)
-
             const tableHover = await page.$('div[jsaction="pSI0Dc:mMUZad;rcuQ6b:npT2md;c0v8t:gmfnwb; mouseover:gmfnwb; touchstart:gmfnwb;"]')
             if (tableHover !== null) await tableHover.hover()
 
