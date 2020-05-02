@@ -6,7 +6,10 @@ class StateController {
         if (!search) return req.status(400).send({ message: 'Estado não informado!' })
 
         String.prototype.normalizeStr = function() {
-            return this.toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ı/g, 'i')
+            return this.toLocaleLowerCase().normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/ı/g, 'i')
+            .replace(/ł/g, 'l')
         }
 
         const country = coronavirusData

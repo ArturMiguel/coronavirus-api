@@ -15,6 +15,7 @@ class AppController {
     routes() {
         this.express.use(require('./routes/CountryRouter'))
         this.express.use(require('./routes/StateRouter'))
+        this.express.use(require('./routes/DocumentationRouter'))
     }
 }
 

@@ -1,0 +1,140 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0.0",
+    "title" : "coronavirus-api",
+    "license" : {
+      "name" : "Licença MIT",
+      "url" : "https://github.com/ArturMiguel/coronavirus-api/blob/master/LICENSE"
+    },
+    "description" : "API para consulta de dados sobre o coronavírus (COVID-19)."
+  },
+  "tags" : [ {
+    "name" : "Countries",
+    "description" : "(Dados de Google News)"
+  }, {
+    "name" : "States",
+    "description" : "(Dados de Google News)"
+  } ],
+  "paths" : {
+    "/api/countries" : {
+      "get" : {
+        "tags" : [ "Countries" ],
+        "summary" : "Retorna dados do coronavírus em cada país e de seus estados.",
+        "description" : "Retorna os dados quantitativos de cada país e de seus estados. Alguns países e estados podem não estar disponíveis pois a fonte onde os dados são coletados não possui registros deles. A API atualiza esses dados a cada 6 horas.",
+        "responses" : {
+          "200" : {
+            "description" : "ok",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/Country"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/countries/{country}" : {
+      "get" : {
+        "tags" : [ "Countries" ],
+        "summary" : "Consulta um país pelo nome e retorna seus dados quantitativos do coronavírus e de seus estados.",
+        "description" : "Retorna os dados quantitativos do país buscado e de seus estados. Alguns países e estados podem não estar disponíveis pois a fonte onde os dados são coletados não possui registros deles. A API atualiza esses dados a cada 6 horas.",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "country",
+          "in" : "path",
+          "description" : "Nome do país",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "ok",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/Country"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/states/{state}" : {
+      "get" : {
+        "tags" : [ "States" ],
+        "summary" : "Consulta um estado pelo nome e retorna seus dados quantitativos do coronavírus.",
+        "description" : "Retorna os dados quantitativos do estado buscado. Alguns estados podem não estar disponíveis pois a fonte onde os dados são coletados não possuí registros deles. A API atualiza esses dados a cada 6 horas.",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "state",
+          "in" : "path",
+          "description" : "Nome do estado",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "ok",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/State"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Country" : {
+      "type" : "object",
+      "properties" : {
+        "country" : {
+          "type" : "string"
+        },
+        "confirmed" : {
+          "type" : "string"
+        },
+        "recovered" : {
+          "type" : "string"
+        },
+        "death" : {
+          "type" : "string"
+        },
+        "states" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/State"
+          }
+        }
+      }
+    },
+    "State" : {
+      "type" : "object",
+      "properties" : {
+        "state" : {
+          "type" : "string"
+        },
+        "confirmed" : {
+          "type" : "string"
+        },
+        "recovered" : {
+          "type" : "string"
+        },
+        "death" : {
+          "type" : "string"
+        }
+      }
+    }
+  },
+  "externalDocs" : {
+    "description" : "GitHub",
+    "url" : "https://github.com/ArturMiguel/coronavirus-api"
+  },
+  "schemes" : [ "https", "http" ],
+  "host" : "coronavirus-api.glitch.me",
+  "basePath" : "/"
+}
