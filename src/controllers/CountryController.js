@@ -2,7 +2,8 @@ const coronavirusData = require('../scrapers/coronavirus-data.json')
 
 class CountryController {
     getCountries(req, res) {
-        res.send(coronavirusData)
+        const countries = coronavirusData.filter(data => data.country !== 'Global')
+        res.send(countries)
     }
 
     getCountry(req, res) {
@@ -13,7 +14,7 @@ class CountryController {
             return this.toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
         }
 
-        const country = coronavirusData.filter(data => data.country.normalizeStr() === search.normalizeStr())
+        const country = coronavirusData.filter(data => data.country !== 'Global' && data.country.normalizeStr() === search.normalizeStr())
         if (country.length === 0) return res.status(400).send({ message: 'País não encontrado!' })
 
         return res.send(country)
