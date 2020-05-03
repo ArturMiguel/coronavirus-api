@@ -13,7 +13,7 @@ class StateController {
         }
 
         const country = coronavirusData
-        .filter(country => country.states.find(state => state.state.normalizeStr() === search.normalizeStr()))
+        .filter(data => data.country !== 'Global' && data.states.find(state => state.state.normalizeStr() === search.normalizeStr()))
         if (country.length === 0) return res.status(400).send({ message: 'Estado não encontrado!' })
 
         const state = country[0].states.filter(state => state.state.normalizeStr() === search.normalizeStr())
