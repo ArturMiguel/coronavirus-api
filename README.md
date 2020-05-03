@@ -2,7 +2,7 @@
 
 API para consulta de dados sobre o coronavírus (COVID-19) em países e estados.
 
-A documentação completa da coronavirus-api pode ser acessada [aqui](https://coronavirus-api.glitch.me/api/docs).
+A documentação completa da coronavirus-api pode ser acessada [aqui](https://coronavirus-api.glitch.me/api/v1/docs).
 
 ## Sobre os dados
 
