@@ -1,332 +1,332 @@
 [
     {
         "country": "Global",
-        "confirmed": "3.424.254",
-        "recovered": "1.092.715",
-        "death": "243.674"
+        "confirmed": "3.494.671",
+        "recovered": "1.114.898",
+        "death": "246.475"
     },
     {
         "country": "Estados Unidos",
-        "confirmed": "1.157.782",
-        "recovered": "150.934",
-        "death": "67.046",
+        "confirmed": "1.180.366",
+        "recovered": "153.005",
+        "death": "68.049",
         "states": [
             {
                 "state": "Nova York",
-                "confirmed": "308.314",
+                "confirmed": "312.977",
                 "recovered": "Não há dados",
-                "death": "18.610"
+                "death": "18.909"
             },
             {
                 "state": "Nova Jersey",
-                "confirmed": "121.190",
+                "confirmed": "123.717",
                 "recovered": "Não há dados",
-                "death": "7.538"
+                "death": "7.742"
             },
             {
                 "state": "Massachusetts",
-                "confirmed": "64.311",
+                "confirmed": "66.263",
                 "recovered": "Não há dados",
-                "death": "3.716"
+                "death": "3.846"
             },
             {
                 "state": "Illinois",
-                "confirmed": "56.055",
+                "confirmed": "58.505",
                 "recovered": "Não há dados",
-                "death": "2.457"
+                "death": "2.559"
             },
             {
                 "state": "Califórnia",
-                "confirmed": "50.442",
+                "confirmed": "52.197",
                 "recovered": "Não há dados",
-                "death": "2.073"
+                "death": "2.172"
             },
             {
                 "state": "Pensilvânia",
-                "confirmed": "46.971",
+                "confirmed": "48.305",
                 "recovered": "Não há dados",
-                "death": "2.354"
+                "death": "2.418"
             },
             {
                 "state": "Michigan",
-                "confirmed": "42.356",
+                "confirmed": "43.207",
                 "recovered": "Não há dados",
-                "death": "3.866"
+                "death": "4.020"
             },
             {
                 "state": "Flórida",
-                "confirmed": "34.728",
+                "confirmed": "35.463",
                 "recovered": "Não há dados",
-                "death": "1.314"
-            },
-            {
-                "state": "Connecticut",
-                "confirmed": "28.764",
-                "recovered": "Não há dados",
-                "death": "2.339"
+                "death": "1.364"
             },
             {
                 "state": "Texas",
-                "confirmed": "28.087",
-                "recovered": "13.353",
-                "death": "782"
+                "confirmed": "30.522",
+                "recovered": "14.891",
+                "death": "847"
+            },
+            {
+                "state": "Connecticut",
+                "confirmed": "29.287",
+                "recovered": "Não há dados",
+                "death": "2.436"
             },
             {
                 "state": "Luisiana",
-                "confirmed": "28.001",
+                "confirmed": "29.140",
                 "recovered": "Não há dados",
-                "death": "1.862"
+                "death": "1.950"
             },
             {
                 "state": "Geórgia",
-                "confirmed": "27.494",
+                "confirmed": "28.338",
                 "recovered": "Não há dados",
-                "death": "1.167"
+                "death": "1.174"
             },
             {
                 "state": "Maryland",
-                "confirmed": "21.742",
-                "recovered": "1.432",
-                "death": "1.047"
+                "confirmed": "24.473",
+                "recovered": "1.590",
+                "death": "1.156"
             },
             {
                 "state": "Ohio",
-                "confirmed": "18.027",
+                "confirmed": "19.335",
                 "recovered": "Não há dados",
-                "death": "975"
+                "death": "1.021"
             },
             {
                 "state": "Indiana",
-                "confirmed": "17.835",
+                "confirmed": "19.295",
                 "recovered": "Não há dados",
-                "death": "1.007"
+                "death": "1.115"
             },
             {
                 "state": "Virgínia",
-                "confirmed": "15.846",
+                "confirmed": "17.731",
                 "recovered": "Não há dados",
-                "death": "552"
+                "death": "616"
             },
             {
                 "state": "Colorado",
-                "confirmed": "15.768",
+                "confirmed": "16.225",
                 "recovered": "Não há dados",
-                "death": "820"
+                "death": "832"
             },
             {
                 "state": "Washington",
-                "confirmed": "14.070",
+                "confirmed": "15.003",
                 "recovered": "Não há dados",
-                "death": "801"
+                "death": "830"
             },
             {
                 "state": "Tennessee",
-                "confirmed": "10.735",
-                "recovered": "5.338",
-                "death": "199"
+                "confirmed": "12.661",
+                "recovered": "5.718",
+                "death": "209"
             },
             {
                 "state": "Carolina do Norte",
-                "confirmed": "10.509",
+                "confirmed": "11.509",
                 "recovered": "Não há dados",
-                "death": "378"
+                "death": "420"
             },
             {
                 "state": "Rhode Island",
-                "confirmed": "8.621",
+                "confirmed": "9.289",
                 "recovered": "Não há dados",
-                "death": "266"
-            },
-            {
-                "state": "Arizona",
-                "confirmed": "8.364",
-                "recovered": "Não há dados",
-                "death": "348"
-            },
-            {
-                "state": "Missouri",
-                "confirmed": "7.582",
-                "recovered": "Não há dados",
-                "death": "329"
-            },
-            {
-                "state": "Alabama",
-                "confirmed": "7.294",
-                "recovered": "Não há dados",
-                "death": "289"
+                "death": "296"
             },
             {
                 "state": "Iowa",
-                "confirmed": "7.145",
-                "recovered": "2.697",
-                "death": "162"
+                "confirmed": "8.641",
+                "recovered": "3.156",
+                "death": "175"
             },
             {
-                "state": "Wisconsin",
-                "confirmed": "6.854",
+                "state": "Arizona",
+                "confirmed": "8.640",
                 "recovered": "Não há dados",
-                "death": "316"
+                "death": "362"
+            },
+            {
+                "state": "Missouri",
+                "confirmed": "8.154",
+                "recovered": "Não há dados",
+                "death": "351"
+            },
+            {
+                "state": "Alabama",
+                "confirmed": "7.615",
+                "recovered": "Não há dados",
+                "death": "288"
             },
             {
                 "state": "Mississípi",
-                "confirmed": "6.815",
+                "confirmed": "7.441",
                 "recovered": "Não há dados",
-                "death": "261"
+                "death": "291"
+            },
+            {
+                "state": "Wisconsin",
+                "confirmed": "6.660",
+                "recovered": "Não há dados",
+                "death": "334"
             },
             {
                 "state": "Carolina do Sul",
-                "confirmed": "6.095",
+                "confirmed": "6.489",
                 "recovered": "Não há dados",
-                "death": "244"
+                "death": "267"
             },
             {
                 "state": "Minnesota",
-                "confirmed": "5.136",
-                "recovered": "2.172",
-                "death": "343"
-            },
-            {
-                "state": "Nevada",
-                "confirmed": "4.998",
-                "recovered": "Não há dados",
-                "death": "243"
-            },
-            {
-                "state": "Delaware",
-                "confirmed": "4.918",
-                "recovered": "1.403",
-                "death": "159"
-            },
-            {
-                "state": "Kansas",
-                "confirmed": "4.746",
-                "recovered": "Não há dados",
-                "death": "131"
-            },
-            {
-                "state": "Kentucky",
-                "confirmed": "4.708",
-                "recovered": "Não há dados",
-                "death": "240"
-            },
-            {
-                "state": "Utah",
-                "confirmed": "4.672",
-                "recovered": "1.939",
-                "death": "46"
-            },
-            {
-                "state": "Washington, D.C.",
-                "confirmed": "4.658",
-                "recovered": "666",
-                "death": "231"
+                "confirmed": "6.228",
+                "recovered": "2.397",
+                "death": "395"
             },
             {
                 "state": "Nebraska",
-                "confirmed": "4.281",
+                "confirmed": "5.326",
                 "recovered": "Não há dados",
-                "death": "70"
+                "death": "76"
             },
             {
-                "state": "Oklahoma",
-                "confirmed": "3.618",
-                "recovered": "2.401",
-                "death": "222"
-            },
-            {
-                "state": "Novo México",
-                "confirmed": "3.411",
+                "state": "Nevada",
+                "confirmed": "5.311",
                 "recovered": "Não há dados",
-                "death": "123"
+                "death": "257"
             },
             {
-                "state": "Arkansas",
-                "confirmed": "3.310",
-                "recovered": "1.985",
-                "death": "64"
+                "state": "Delaware",
+                "confirmed": "5.038",
+                "recovered": "1.546",
+                "death": "168"
             },
             {
-                "state": "Oregon",
-                "confirmed": "2.510",
+                "state": "Kansas",
+                "confirmed": "5.030",
                 "recovered": "Não há dados",
-                "death": "103"
+                "death": "134"
             },
             {
-                "state": "Dakota do Sul",
-                "confirmed": "2.449",
-                "recovered": "1.573",
-                "death": "17"
-            },
-            {
-                "state": "Nova Hampshire",
-                "confirmed": "2.054",
-                "recovered": "980",
-                "death": "66"
-            },
-            {
-                "state": "Idaho",
-                "confirmed": "1.984",
-                "recovered": "1.121",
-                "death": "60"
-            },
-            {
-                "state": "Porto Rico",
-                "confirmed": "1.539",
-                "recovered": "Não há dados",
-                "death": "92"
-            },
-            {
-                "state": "Virgínia Ocidental",
-                "confirmed": "1.125",
-                "recovered": "555",
-                "death": "44"
-            },
-            {
-                "state": "Maine",
-                "confirmed": "1.095",
-                "recovered": "631",
-                "death": "53"
-            },
-            {
-                "state": "Dakota do Norte",
-                "confirmed": "1.067",
-                "recovered": "458",
-                "death": "19"
-            },
-            {
-                "state": "Vermont",
-                "confirmed": "866",
-                "recovered": "Não há dados",
+                "state": "Utah",
+                "confirmed": "4.981",
+                "recovered": "2.185",
                 "death": "49"
             },
             {
+                "state": "Kentucky",
+                "confirmed": "4.879",
+                "recovered": "Não há dados",
+                "death": "248"
+            },
+            {
+                "state": "Washington, D.C.",
+                "confirmed": "4.797",
+                "recovered": "666",
+                "death": "240"
+            },
+            {
+                "state": "Oklahoma",
+                "confirmed": "3.851",
+                "recovered": "2.554",
+                "death": "238"
+            },
+            {
+                "state": "Novo México",
+                "confirmed": "3.732",
+                "recovered": "Não há dados",
+                "death": "139"
+            },
+            {
+                "state": "Arkansas",
+                "confirmed": "3.372",
+                "recovered": "1.987",
+                "death": "72"
+            },
+            {
+                "state": "Oregon",
+                "confirmed": "2.635",
+                "recovered": "Não há dados",
+                "death": "109"
+            },
+            {
+                "state": "Dakota do Sul",
+                "confirmed": "2.588",
+                "recovered": "1.759",
+                "death": "21"
+            },
+            {
+                "state": "Nova Hampshire",
+                "confirmed": "2.429",
+                "recovered": "1.017",
+                "death": "84"
+            },
+            {
+                "state": "Idaho",
+                "confirmed": "2.061",
+                "recovered": "1.267",
+                "death": "64"
+            },
+            {
+                "state": "Porto Rico",
+                "confirmed": "1.757",
+                "recovered": "Não há dados",
+                "death": "95"
+            },
+            {
+                "state": "Virgínia Ocidental",
+                "confirmed": "1.184",
+                "recovered": "611",
+                "death": "50"
+            },
+            {
+                "state": "Dakota do Norte",
+                "confirmed": "1.153",
+                "recovered": "510",
+                "death": "24"
+            },
+            {
+                "state": "Maine",
+                "confirmed": "1.152",
+                "recovered": "689",
+                "death": "56"
+            },
+            {
+                "state": "Vermont",
+                "confirmed": "886",
+                "recovered": "Não há dados",
+                "death": "51"
+            },
+            {
                 "state": "Havaí",
-                "confirmed": "618",
-                "recovered": "526",
+                "confirmed": "620",
+                "recovered": "541",
                 "death": "16"
             },
             {
                 "state": "Wyoming",
-                "confirmed": "559",
-                "recovered": "373",
+                "confirmed": "579",
+                "recovered": "391",
                 "death": "7"
             },
             {
                 "state": "Montana",
-                "confirmed": "453",
-                "recovered": "392",
+                "confirmed": "455",
+                "recovered": "404",
                 "death": "16"
             },
             {
                 "state": "Alasca",
-                "confirmed": "364",
-                "recovered": "254",
+                "confirmed": "365",
+                "recovered": "261",
                 "death": "9"
             },
             {
                 "state": "Guam",
-                "confirmed": "145",
-                "recovered": "131",
+                "confirmed": "148",
+                "recovered": "126",
                 "death": "5"
             },
             {
@@ -351,131 +351,131 @@
     },
     {
         "country": "Espanha",
-        "confirmed": "216.582",
-        "recovered": "117.248",
-        "death": "25.100",
+        "confirmed": "217.466",
+        "recovered": "118.902",
+        "death": "25.264",
         "states": [
             {
                 "state": "Madrid",
-                "confirmed": "61.829",
-                "recovered": "37.154",
-                "death": "8.222"
+                "confirmed": "62.205",
+                "recovered": "37.704",
+                "death": "8.332"
             },
             {
                 "state": "Catalunha",
-                "confirmed": "49.307",
-                "recovered": "19.640",
-                "death": "5.061"
+                "confirmed": "50.234",
+                "recovered": "20.332",
+                "death": "5.185"
             },
             {
                 "state": "Castela e Leão",
-                "confirmed": "16.993",
-                "recovered": "6.686",
-                "death": "1.770"
+                "confirmed": "17.283",
+                "recovered": "6.856",
+                "death": "1.800"
             },
             {
                 "state": "Castela-Mancha",
-                "confirmed": "15.910",
-                "recovered": "5.615",
-                "death": "2.498"
+                "confirmed": "16.017",
+                "recovered": "5.772",
+                "death": "2.565"
             },
             {
                 "state": "País Basco",
-                "confirmed": "12.824",
-                "recovered": "11.380",
-                "death": "1.312"
+                "confirmed": "12.938",
+                "recovered": "12.024",
+                "death": "1.329"
             },
             {
                 "state": "Andaluzia",
-                "confirmed": "12.161",
-                "recovered": "6.334",
-                "death": "1.238"
+                "confirmed": "12.175",
+                "recovered": "6.897",
+                "death": "1.256"
             },
             {
                 "state": "Valência",
-                "confirmed": "10.347",
-                "recovered": "7.078",
-                "death": "1.245"
+                "confirmed": "10.436",
+                "recovered": "7.447",
+                "death": "1.264"
             },
             {
                 "state": "Galiza",
-                "confirmed": "8.848",
-                "recovered": "5.816",
-                "death": "555"
+                "confirmed": "8.967",
+                "recovered": "6.075",
+                "death": "563"
             },
             {
                 "state": "Aragão",
-                "confirmed": "5.116",
-                "recovered": "2.382",
-                "death": "749"
+                "confirmed": "5.164",
+                "recovered": "2.558",
+                "death": "761"
             },
             {
                 "state": "Navarra",
-                "confirmed": "4.848",
-                "recovered": "2.185",
-                "death": "458"
+                "confirmed": "4.902",
+                "recovered": "2.411",
+                "death": "462"
             },
             {
                 "state": "La Rioja",
-                "confirmed": "3.936",
-                "recovered": "2.220",
-                "death": "333"
+                "confirmed": "3.952",
+                "recovered": "2.297",
+                "death": "335"
             },
             {
                 "state": "Estremadura",
-                "confirmed": "2.811",
-                "recovered": "1.960",
-                "death": "451"
+                "confirmed": "2.844",
+                "recovered": "2.072",
+                "death": "460"
             },
             {
                 "state": "Astúrias",
-                "confirmed": "2.298",
-                "recovered": "860",
-                "death": "273"
+                "confirmed": "2.305",
+                "recovered": "908",
+                "death": "280"
             },
             {
                 "state": "Canárias",
-                "confirmed": "2.206",
-                "recovered": "1.151",
-                "death": "136"
+                "confirmed": "2.221",
+                "recovered": "1.150",
+                "death": "140"
             },
             {
                 "state": "Cantábria",
-                "confirmed": "2.184",
-                "recovered": "1.509",
-                "death": "192"
+                "confirmed": "2.205",
+                "recovered": "1.616",
+                "death": "195"
             },
             {
                 "state": "Ilhas Baleares",
-                "confirmed": "1.894",
-                "recovered": "1.245",
-                "death": "193"
+                "confirmed": "1.908",
+                "recovered": "1.284",
+                "death": "197"
             },
             {
                 "state": "Múrcia",
-                "confirmed": "1.488",
-                "recovered": "1.229",
-                "death": "132"
+                "confirmed": "1.492",
+                "recovered": "1.260",
+                "death": "134"
             },
             {
                 "state": "Melilha",
-                "confirmed": "115",
-                "recovered": "96",
+                "confirmed": "117",
+                "recovered": "98",
                 "death": "2"
             },
             {
                 "state": "Ceuta",
                 "confirmed": "101",
-                "recovered": "138",
+                "recovered": "141",
                 "death": "4"
             }
         ]
     },
     {
         "country": "Itália",
-        "confirmed": "209.328",
-        "recovered": "79.914",
-        "death": "28.710",
+        "confirmed": "210.717",
+        "recovered": "81.654",
+        "death": "28.884",
         "states": [
             {
                 "state": "Lombardia",
@@ -607,9 +607,9 @@
     },
     {
         "country": "Reino Unido",
-        "confirmed": "182.260",
+        "confirmed": "186.599",
         "recovered": "Não há dados",
-        "death": "28.131",
+        "death": "28.446",
         "states": [
             {
                 "state": "Grande Londres",
@@ -675,120 +675,127 @@
     },
     {
         "country": "Alemanha",
-        "confirmed": "164.967",
-        "recovered": "121.014",
-        "death": "6.812",
+        "confirmed": "165.565",
+        "recovered": "126.153",
+        "death": "6.848",
         "states": [
             {
                 "state": "Baviera",
-                "confirmed": "42.658",
+                "confirmed": "42.792",
                 "recovered": "Não há dados",
-                "death": "1.885"
+                "death": "1.910"
             },
             {
                 "state": "Renânia do Norte-Vestfália",
-                "confirmed": "33.216",
+                "confirmed": "33.428",
                 "recovered": "Não há dados",
-                "death": "1.268"
+                "death": "1.287"
             },
             {
                 "state": "Bade-Vurtemberga",
-                "confirmed": "32.146",
+                "confirmed": "32.291",
                 "recovered": "Não há dados",
-                "death": "1.402"
+                "death": "1.412"
             },
             {
                 "state": "Baixa Saxônia",
-                "confirmed": "10.246",
+                "confirmed": "10.283",
                 "recovered": "Não há dados",
-                "death": "451"
+                "death": "453"
             },
             {
                 "state": "Hesse",
-                "confirmed": "8.486",
+                "confirmed": "8.524",
                 "recovered": "Não há dados",
-                "death": "364"
+                "death": "370"
             },
             {
                 "state": "Renânia-Palatinado",
-                "confirmed": "6.099",
+                "confirmed": "6.133",
                 "recovered": "Não há dados",
-                "death": "173"
+                "death": "176"
             },
             {
                 "state": "Berlim",
-                "confirmed": "5.943",
+                "confirmed": "5.976",
                 "recovered": "Não há dados",
-                "death": "152"
+                "death": "154"
             },
             {
                 "state": "Saxônia",
-                "confirmed": "4.617",
+                "confirmed": "4.696",
                 "recovered": "Não há dados",
-                "death": "163"
+                "death": "165"
             },
             {
                 "state": "Hamburgo",
-                "confirmed": "4.609",
+                "confirmed": "4.631",
                 "recovered": "Não há dados",
-                "death": "163"
+                "death": "164"
             },
             {
                 "state": "Brandemburgo",
-                "confirmed": "2.886",
+                "confirmed": "2.905",
                 "recovered": "Não há dados",
                 "death": "122"
             },
             {
                 "state": "Schleswig-Holstein",
-                "confirmed": "2.728",
+                "confirmed": "2.738",
                 "recovered": "Não há dados",
-                "death": "112"
+                "death": "113"
             },
             {
                 "state": "Sarre",
-                "confirmed": "2.597",
+                "confirmed": "2.605",
                 "recovered": "Não há dados",
-                "death": "135"
+                "death": "138"
             },
             {
                 "state": "Turíngia",
-                "confirmed": "2.335",
+                "confirmed": "2.345",
                 "recovered": "Não há dados",
                 "death": "93"
             },
             {
                 "state": "Saxônia-Anhalt",
-                "confirmed": "1.571",
+                "confirmed": "1.576",
                 "recovered": "Não há dados",
                 "death": "44"
             },
             {
                 "state": "Brémen",
-                "confirmed": "871",
+                "confirmed": "875",
                 "recovered": "Não há dados",
                 "death": "30"
             },
             {
                 "state": "Meclemburgo-Pomerânia Ocidental",
-                "confirmed": "695",
+                "confirmed": "698",
                 "recovered": "Não há dados",
                 "death": "18"
             }
         ]
     },
     {
+        "country": "Rússia",
+        "confirmed": "134.687",
+        "recovered": "16.639",
+        "death": "1.280",
+        "states": []
+    },
+    {
         "country": "França",
-        "confirmed": "130.979",
-        "recovered": "50.562",
-        "death": "24.760",
+        "confirmed": "131.287",
+        "recovered": "50.784",
+        "death": "24.895",
         "states": []
     },
     {
         "country": "Turquia",
-        "confirmed": "124.375",
-        "recovered": "58.259",
-        "death": "3.336",
+        "confirmed": "126.045",
+        "recovered": "63.151",
+        "death": "3.397",
         "states": [
             {
                 "state": "Istambul",
@@ -1279,71 +1286,64 @@
         ]
     },
     {
-        "country": "Rússia",
-        "confirmed": "124.054",
-        "recovered": "15.013",
-        "death": "1.222",
-        "states": []
-    },
-    {
         "country": "Brasil",
-        "confirmed": "96.559",
+        "confirmed": "101.147",
         "recovered": "40.973",
-        "death": "6.750",
+        "death": "7.025",
         "states": [
             {
                 "state": "São Paulo",
-                "confirmed": "31.174",
+                "confirmed": "31.772",
                 "recovered": "Não há dados",
-                "death": "2.586"
+                "death": "2.627"
             },
             {
                 "state": "Rio de Janeiro",
-                "confirmed": "10.546",
+                "confirmed": "11.139",
                 "recovered": "Não há dados",
-                "death": "971"
-            },
-            {
-                "state": "Ceará",
-                "confirmed": "8.309",
-                "recovered": "Não há dados",
-                "death": "638"
+                "death": "1.019"
             },
             {
                 "state": "Pernambuco",
-                "confirmed": "8.145",
+                "confirmed": "8.643",
                 "recovered": "Não há dados",
-                "death": "628"
+                "death": "652"
+            },
+            {
+                "state": "Ceará",
+                "confirmed": "8.370",
+                "recovered": "Não há dados",
+                "death": "663"
             },
             {
                 "state": "Amazonas",
-                "confirmed": "6.062",
+                "confirmed": "6.683",
                 "recovered": "Não há dados",
-                "death": "501"
+                "death": "548"
             },
             {
                 "state": "Maranhão",
-                "confirmed": "3.805",
+                "confirmed": "4.040",
                 "recovered": "Não há dados",
-                "death": "224"
+                "death": "237"
             },
             {
                 "state": "Pará",
-                "confirmed": "3.460",
+                "confirmed": "3.863",
                 "recovered": "Não há dados",
-                "death": "273"
+                "death": "309"
             },
             {
                 "state": "Bahia",
-                "confirmed": "3.315",
+                "confirmed": "3.495",
                 "recovered": "Não há dados",
                 "death": "123"
             },
             {
                 "state": "Espírito Santo",
-                "confirmed": "2.985",
+                "confirmed": "3.086",
                 "recovered": "Não há dados",
-                "death": "103"
+                "death": "114"
             },
             {
                 "state": "Santa Catarina",
@@ -1353,103 +1353,103 @@
             },
             {
                 "state": "Minas Gerais",
-                "confirmed": "2.023",
+                "confirmed": "2.118",
                 "recovered": "Não há dados",
-                "death": "88"
+                "death": "89"
             },
             {
                 "state": "Rio Grande do Sul",
-                "confirmed": "1.619",
+                "confirmed": "1.666",
                 "recovered": "Não há dados",
-                "death": "62"
+                "death": "65"
             },
             {
                 "state": "Distrito Federal",
-                "confirmed": "1.566",
+                "confirmed": "1.649",
                 "recovered": "Não há dados",
-                "death": "31"
+                "death": "33"
             },
             {
                 "state": "Paraná",
-                "confirmed": "1.492",
+                "confirmed": "1.514",
                 "recovered": "Não há dados",
-                "death": "90"
-            },
-            {
-                "state": "Alagoas",
-                "confirmed": "1.372",
-                "recovered": "Não há dados",
-                "death": "58"
-            },
-            {
-                "state": "Rio Grande do Norte",
-                "confirmed": "1.366",
-                "recovered": "Não há dados",
-                "death": "59"
+                "death": "93"
             },
             {
                 "state": "Amapá",
-                "confirmed": "1.187",
+                "confirmed": "1.482",
                 "recovered": "Não há dados",
-                "death": "40"
+                "death": "43"
+            },
+            {
+                "state": "Alagoas",
+                "confirmed": "1.441",
+                "recovered": "Não há dados",
+                "death": "64"
+            },
+            {
+                "state": "Rio Grande do Norte",
+                "confirmed": "1.392",
+                "recovered": "Não há dados",
+                "death": "61"
             },
             {
                 "state": "Paraíba",
-                "confirmed": "1.034",
+                "confirmed": "1.169",
                 "recovered": "Não há dados",
-                "death": "74"
+                "death": "76"
             },
             {
                 "state": "Goiás",
-                "confirmed": "825",
+                "confirmed": "850",
                 "recovered": "Não há dados",
                 "death": "30"
             },
             {
-                "state": "Roraima",
-                "confirmed": "668",
-                "recovered": "Não há dados",
-                "death": "9"
-            },
-            {
                 "state": "Piauí",
-                "confirmed": "665",
+                "confirmed": "742",
                 "recovered": "Não há dados",
-                "death": "26"
+                "death": "28"
             },
             {
-                "state": "Rondônia",
-                "confirmed": "653",
+                "state": "Roraima",
+                "confirmed": "740",
                 "recovered": "Não há dados",
-                "death": "23"
+                "death": "11"
             },
             {
                 "state": "Sergipe",
-                "confirmed": "601",
+                "confirmed": "730",
                 "recovered": "Não há dados",
                 "death": "14"
             },
             {
-                "state": "Acre",
-                "confirmed": "553",
+                "state": "Rondônia",
+                "confirmed": "705",
                 "recovered": "Não há dados",
-                "death": "22"
+                "death": "24"
+            },
+            {
+                "state": "Acre",
+                "confirmed": "657",
+                "recovered": "Não há dados",
+                "death": "24"
             },
             {
                 "state": "Mato Grosso",
-                "confirmed": "331",
+                "confirmed": "337",
                 "recovered": "Não há dados",
                 "death": "12"
             },
             {
                 "state": "Mato Grosso do Sul",
-                "confirmed": "266",
+                "confirmed": "272",
                 "recovered": "Não há dados",
-                "death": "9"
+                "death": "10"
             },
             {
                 "state": "Tocantins",
-                "confirmed": "191",
+                "confirmed": "246",
                 "recovered": "Não há dados",
                 "death": "4"
             }
@@ -1457,9 +1457,9 @@
     },
     {
         "country": "Irã",
-        "confirmed": "96.448",
-        "recovered": "77.350",
-        "death": "6.156",
+        "confirmed": "97.424",
+        "recovered": "78.422",
+        "death": "6.203",
         "states": [
             {
                 "state": "Teerã",
@@ -1651,7 +1651,7 @@
     },
     {
         "country": "China",
-        "confirmed": "84.388",
+        "confirmed": "84.393",
         "recovered": "77.713",
         "death": "4.643",
         "states": [
@@ -1845,27 +1845,27 @@
     },
     {
         "country": "Canadá",
-        "confirmed": "56.714",
-        "recovered": "23.801",
-        "death": "3.566",
+        "confirmed": "59.474",
+        "recovered": "24.908",
+        "death": "3.682",
         "states": [
             {
                 "state": "Quebec",
-                "confirmed": "29.656",
-                "recovered": "6.965",
-                "death": "2.136"
+                "confirmed": "31.865",
+                "recovered": "7.258",
+                "death": "2.205"
             },
             {
                 "state": "Ontário",
-                "confirmed": "17.119",
-                "recovered": "11.390",
-                "death": "1.176"
+                "confirmed": "17.553",
+                "recovered": "12.005",
+                "death": "1.216"
             },
             {
                 "state": "Alberta",
-                "confirmed": "5.670",
-                "recovered": "2.534",
-                "death": "94"
+                "confirmed": "5.766",
+                "recovered": "2.713",
+                "death": "95"
             },
             {
                 "state": "Colúmbia Britânica",
@@ -1875,26 +1875,26 @@
             },
             {
                 "state": "Nova Escócia",
-                "confirmed": "963",
-                "recovered": "609",
-                "death": "31"
+                "confirmed": "971",
+                "recovered": "624",
+                "death": "37"
             },
             {
                 "state": "Saskatchewan",
-                "confirmed": "421",
-                "recovered": "302",
+                "confirmed": "433",
+                "recovered": "305",
                 "death": "6"
             },
             {
                 "state": "Manitoba",
-                "confirmed": "281",
-                "recovered": "236",
+                "confirmed": "282",
+                "recovered": "237",
                 "death": "6"
             },
             {
                 "state": "Terra Nova e Labrador",
                 "confirmed": "259",
-                "recovered": "231",
+                "recovered": "232",
                 "death": "3"
             },
             {
@@ -1931,25 +1931,25 @@
     },
     {
         "country": "Bélgica",
-        "confirmed": "49.517",
-        "recovered": "12.211",
-        "death": "7.765",
+        "confirmed": "49.906",
+        "recovered": "12.309",
+        "death": "7.844",
         "states": [
             {
                 "state": "Região flamenga",
-                "confirmed": "27.307",
+                "confirmed": "27.492",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Valônia",
-                "confirmed": "16.107",
+                "confirmed": "16.214",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Bruxelas",
-                "confirmed": "5.042",
+                "confirmed": "5.113",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             }
@@ -1957,157 +1957,157 @@
     },
     {
         "country": "Peru",
-        "confirmed": "42.534",
-        "recovered": "12.434",
-        "death": "1.200",
+        "confirmed": "45.928",
+        "recovered": "13.550",
+        "death": "1.286",
         "states": [
             {
                 "state": "Lima",
-                "confirmed": "26.908",
+                "confirmed": "28.990",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Callao",
-                "confirmed": "3.543",
+                "confirmed": "3.893",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Lambayeque",
-                "confirmed": "2.548",
+                "confirmed": "2.646",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Piura",
-                "confirmed": "1.492",
+                "confirmed": "1.618",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Loreto",
-                "confirmed": "1.425",
+                "confirmed": "1.502",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Ancash",
-                "confirmed": "907",
+                "confirmed": "993",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Ucayali",
-                "confirmed": "826",
+                "confirmed": "913",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Liberdade",
-                "confirmed": "798",
+                "confirmed": "879",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Arequipa",
-                "confirmed": "655",
+                "confirmed": "692",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Ica",
-                "confirmed": "584",
+                "confirmed": "676",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Junín",
-                "confirmed": "451",
+                "confirmed": "506",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Tumbes",
-                "confirmed": "336",
+                "confirmed": "347",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "San Martín",
-                "confirmed": "265",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Huánuco",
-                "confirmed": "233",
+                "confirmed": "282",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Cajamarca",
-                "confirmed": "224",
+                "confirmed": "259",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Huánuco",
+                "confirmed": "248",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Cusco",
-                "confirmed": "221",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Pasco",
-                "confirmed": "148",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Amazonas",
-                "confirmed": "136",
+                "confirmed": "230",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Huancavelica",
-                "confirmed": "133",
+                "confirmed": "186",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
-                "state": "Moquegua",
-                "confirmed": "128",
+                "state": "Pasco",
+                "confirmed": "161",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Amazonas",
+                "confirmed": "155",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Tacna",
-                "confirmed": "128",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Puno",
-                "confirmed": "124",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Madre de Deus",
-                "confirmed": "118",
+                "confirmed": "141",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Ayacucho",
-                "confirmed": "117",
+                "confirmed": "135",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Puno",
+                "confirmed": "135",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Moquegua",
+                "confirmed": "131",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Madre de Deus",
+                "confirmed": "120",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Apurímac",
-                "confirmed": "86",
+                "confirmed": "90",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             }
@@ -2115,74 +2115,74 @@
     },
     {
         "country": "Países Baixos",
-        "confirmed": "40.236",
+        "confirmed": "40.571",
         "recovered": "Não há dados",
-        "death": "4.987",
+        "death": "5.056",
         "states": []
     },
     {
         "country": "Índia",
-        "confirmed": "37.776",
-        "recovered": "10.018",
-        "death": "1.223",
+        "confirmed": "40.263",
+        "recovered": "10.887",
+        "death": "1.306",
         "states": [
             {
                 "state": "Maharashtra",
-                "confirmed": "11.506",
+                "confirmed": "12.296",
                 "recovered": "Não há dados",
-                "death": "485"
+                "death": "521"
             },
             {
                 "state": "Gujarate",
-                "confirmed": "4.721",
+                "confirmed": "5.055",
                 "recovered": "Não há dados",
-                "death": "236"
+                "death": "262"
             },
             {
                 "state": "Deli",
-                "confirmed": "3.738",
+                "confirmed": "4.122",
                 "recovered": "Não há dados",
-                "death": "61"
+                "death": "64"
             },
             {
                 "state": "Madhya Pradesh",
-                "confirmed": "2.719",
+                "confirmed": "2.846",
                 "recovered": "Não há dados",
-                "death": "145"
+                "death": "156"
             },
             {
                 "state": "Rajastão",
-                "confirmed": "2.666",
+                "confirmed": "2.772",
                 "recovered": "Não há dados",
-                "death": "62"
+                "death": "65"
             },
             {
                 "state": "Tamil Nadu",
-                "confirmed": "2.526",
+                "confirmed": "2.757",
                 "recovered": "Não há dados",
-                "death": "28"
+                "death": "29"
             },
             {
                 "state": "Uttar Pradesh",
-                "confirmed": "2.455",
+                "confirmed": "2.626",
                 "recovered": "Não há dados",
                 "death": "43"
             },
             {
                 "state": "Andra Pradexe",
-                "confirmed": "1.525",
+                "confirmed": "1.583",
                 "recovered": "Não há dados",
                 "death": "33"
             },
             {
                 "state": "Telangana",
-                "confirmed": "1.057",
+                "confirmed": "1.063",
                 "recovered": "Não há dados",
-                "death": "26"
+                "death": "28"
             },
             {
                 "state": "Bengala Ocidental",
-                "confirmed": "795",
+                "confirmed": "922",
                 "recovered": "Não há dados",
                 "death": "33"
             },
@@ -2194,55 +2194,55 @@
             },
             {
                 "state": "Jammu e Kashmir",
-                "confirmed": "639",
+                "confirmed": "666",
                 "recovered": "Não há dados",
                 "death": "8"
             },
             {
                 "state": "Karnataka",
-                "confirmed": "598",
+                "confirmed": "606",
                 "recovered": "Não há dados",
                 "death": "25"
             },
             {
                 "state": "Querala",
-                "confirmed": "498",
+                "confirmed": "500",
                 "recovered": "Não há dados",
                 "death": "4"
             },
             {
                 "state": "Bihar",
-                "confirmed": "471",
+                "confirmed": "482",
                 "recovered": "Não há dados",
-                "death": "3"
+                "death": "4"
             },
             {
                 "state": "Haryana",
-                "confirmed": "360",
+                "confirmed": "394",
                 "recovered": "Não há dados",
                 "death": "4"
             },
             {
                 "state": "Orissa",
-                "confirmed": "154",
+                "confirmed": "160",
                 "recovered": "Não há dados",
                 "death": "1"
             },
             {
                 "state": "Jharkhand",
-                "confirmed": "112",
+                "confirmed": "116",
                 "recovered": "Não há dados",
                 "death": "3"
             },
             {
                 "state": "Chandigarh",
-                "confirmed": "88",
+                "confirmed": "94",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Uttarakhand",
-                "confirmed": "58",
+                "confirmed": "59",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -2259,6 +2259,12 @@
                 "death": "Não há dados"
             },
             {
+                "state": "Ladaque",
+                "confirmed": "40",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
                 "state": "Himachal Pradesh",
                 "confirmed": "40",
                 "recovered": "Não há dados",
@@ -2267,12 +2273,6 @@
             {
                 "state": "Ilhas de Andamã e Nicobar",
                 "confirmed": "33",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Ladaque",
-                "confirmed": "22",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -2296,7 +2296,7 @@
             },
             {
                 "state": "Tripura",
-                "confirmed": "2",
+                "confirmed": "4",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -2328,9 +2328,9 @@
     },
     {
         "country": "Suíça",
-        "confirmed": "29.817",
-        "recovered": "24.200",
-        "death": "1.467",
+        "confirmed": "29.905",
+        "recovered": "24.500",
+        "death": "1.473",
         "states": [
             {
                 "state": "Vaud",
@@ -2492,9 +2492,9 @@
     },
     {
         "country": "Equador",
-        "confirmed": "27.464",
-        "recovered": "2.132",
-        "death": "1.371",
+        "confirmed": "29.538",
+        "recovered": "3.300",
+        "death": "1.564",
         "states": [
             {
                 "state": "Guayas",
@@ -2644,20 +2644,20 @@
     },
     {
         "country": "Arábia Saudita",
-        "confirmed": "25.459",
-        "recovered": "3.765",
-        "death": "176",
+        "confirmed": "27.011",
+        "recovered": "4.134",
+        "death": "184",
         "states": []
     },
     {
         "country": "Portugal",
-        "confirmed": "25.351",
-        "recovered": "1.671",
-        "death": "1.023",
+        "confirmed": "25.282",
+        "recovered": "1.689",
+        "death": "1.043",
         "states": [
             {
                 "state": "Região do Norte",
-                "confirmed": "15.226",
+                "confirmed": "15.296",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -2669,7 +2669,7 @@
             },
             {
                 "state": "Centro Region",
-                "confirmed": "3.435",
+                "confirmed": "3.456",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -2687,7 +2687,7 @@
             },
             {
                 "state": "Açores",
-                "confirmed": "131",
+                "confirmed": "132",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -2701,9 +2701,9 @@
     },
     {
         "country": "Suécia",
-        "confirmed": "22.082",
-        "recovered": "1.005",
-        "death": "2.669",
+        "confirmed": "22.317",
+        "recovered": "1.543",
+        "death": "2.679",
         "states": [
             {
                 "state": "Estocolmo",
@@ -2834,17 +2834,10 @@
         ]
     },
     {
-        "country": "Irlanda",
-        "confirmed": "21.176",
-        "recovered": "13.386",
-        "death": "1.265",
-        "states": []
-    },
-    {
         "country": "México",
-        "confirmed": "20.739",
-        "recovered": "12.377",
-        "death": "1.972",
+        "confirmed": "22.088",
+        "recovered": "13.447",
+        "death": "2.061",
         "states": [
             {
                 "state": "Distrito Federal",
@@ -3041,10 +3034,17 @@
         ]
     },
     {
+        "country": "Irlanda",
+        "confirmed": "21.506",
+        "recovered": "13.386",
+        "death": "1.303",
+        "states": []
+    },
+    {
         "country": "Paquistão",
-        "confirmed": "19.103",
-        "recovered": "4.817",
-        "death": "440",
+        "confirmed": "20.084",
+        "recovered": "5.114",
+        "death": "457",
         "states": [
             {
                 "state": "Punjab",
@@ -3092,97 +3092,97 @@
     },
     {
         "country": "Chile",
-        "confirmed": "18.435",
-        "recovered": "9.572",
-        "death": "247",
+        "confirmed": "19.663",
+        "recovered": "10.041",
+        "death": "260",
         "states": [
             {
                 "state": "Santiago",
-                "confirmed": "8.300",
+                "confirmed": "4.915",
                 "recovered": "Não há dados",
-                "death": "100"
+                "death": "41"
             },
             {
                 "state": "Araucanía",
-                "confirmed": "1.251",
+                "confirmed": "1.328",
                 "recovered": "Não há dados",
-                "death": "32"
+                "death": "36"
             },
             {
                 "state": "Ñuble",
-                "confirmed": "747",
+                "confirmed": "786",
                 "recovered": "Não há dados",
-                "death": "14"
+                "death": "16"
             },
             {
                 "state": "Bío-Bío",
-                "confirmed": "709",
+                "confirmed": "759",
                 "recovered": "Não há dados",
                 "death": "7"
             },
             {
-                "state": "Magalhães e Antártica Chilena",
-                "confirmed": "693",
+                "state": "Antofagasta",
+                "confirmed": "740",
                 "recovered": "Não há dados",
-                "death": "10"
+                "death": "7"
             },
             {
                 "state": "Valparaíso",
-                "confirmed": "493",
+                "confirmed": "638",
+                "recovered": "Não há dados",
+                "death": "13"
+            },
+            {
+                "state": "Los Lagos",
+                "confirmed": "517",
                 "recovered": "Não há dados",
                 "death": "10"
             },
             {
-                "state": "Antofagasta",
-                "confirmed": "481",
+                "state": "Magalhães e Antártica Chilena",
+                "confirmed": "501",
                 "recovered": "Não há dados",
-                "death": "4"
-            },
-            {
-                "state": "Los Lagos",
-                "confirmed": "477",
-                "recovered": "Não há dados",
-                "death": "9"
+                "death": "6"
             },
             {
                 "state": "Maule",
-                "confirmed": "384",
+                "confirmed": "397",
                 "recovered": "Não há dados",
-                "death": "12"
+                "death": "13"
             },
             {
                 "state": "Arica e Parinacota",
-                "confirmed": "268",
-                "recovered": "Não há dados",
-                "death": "3"
-            },
-            {
-                "state": "Los Rios",
-                "confirmed": "180",
+                "confirmed": "308",
                 "recovered": "Não há dados",
                 "death": "4"
             },
             {
                 "state": "Tarapacá",
-                "confirmed": "169",
+                "confirmed": "272",
                 "recovered": "Não há dados",
                 "death": "1"
+            },
+            {
+                "state": "Los Rios",
+                "confirmed": "198",
+                "recovered": "Não há dados",
+                "death": "4"
             },
             {
                 "state": "O'Higgins",
-                "confirmed": "97",
+                "confirmed": "125",
                 "recovered": "Não há dados",
-                "death": "1"
+                "death": "3"
             },
             {
                 "state": "Coquimbo",
-                "confirmed": "74",
+                "confirmed": "88",
                 "recovered": "Não há dados",
                 "death": "0"
             },
             {
                 "state": "Atacama",
-                "confirmed": "35",
+                "confirmed": "67",
                 "recovered": "Não há dados",
                 "death": "0"
             },
@@ -3196,16 +3196,23 @@
     },
     {
         "country": "Singapura",
-        "confirmed": "17.548",
-        "recovered": "1.347",
-        "death": "17",
+        "confirmed": "18.205",
+        "recovered": "1.408",
+        "death": "18",
+        "states": []
+    },
+    {
+        "country": "Bielorrússia",
+        "confirmed": "16.705",
+        "recovered": "3.196",
+        "death": "99",
         "states": []
     },
     {
         "country": "Israel",
-        "confirmed": "16.185",
-        "recovered": "9.593",
-        "death": "229",
+        "confirmed": "16.193",
+        "recovered": "9.634",
+        "death": "230",
         "states": [
             {
                 "state": "Jerusalém",
@@ -3246,17 +3253,10 @@
         ]
     },
     {
-        "country": "Bielorrússia",
-        "confirmed": "15.828",
-        "recovered": "3.117",
-        "death": "97",
-        "states": []
-    },
-    {
         "country": "Áustria",
-        "confirmed": "15.531",
-        "recovered": "13.180",
-        "death": "596",
+        "confirmed": "15.558",
+        "recovered": "13.228",
+        "death": "598",
         "states": [
             {
                 "state": "Tirol",
@@ -3315,6 +3315,13 @@
         ]
     },
     {
+        "country": "Catar",
+        "confirmed": "15.551",
+        "recovered": "1.664",
+        "death": "12",
+        "states": []
+    },
+    {
         "country": "Japão",
         "confirmed": "14.877",
         "recovered": "3.981",
@@ -3322,43 +3329,43 @@
         "states": [
             {
                 "state": "Tóquio",
-                "confirmed": "4.477",
+                "confirmed": "4.568",
                 "recovered": "Não há dados",
                 "death": "141"
             },
             {
                 "state": "Osaka",
-                "confirmed": "1.656",
+                "confirmed": "1.666",
                 "recovered": "Não há dados",
                 "death": "46"
             },
             {
                 "state": "Kanagawa",
-                "confirmed": "1.074",
+                "confirmed": "1.097",
                 "recovered": "Não há dados",
                 "death": "39"
             },
             {
                 "state": "Saitama",
-                "confirmed": "886",
+                "confirmed": "898",
                 "recovered": "Não há dados",
                 "death": "37"
             },
             {
                 "state": "Chiba",
-                "confirmed": "847",
+                "confirmed": "852",
                 "recovered": "Não há dados",
                 "death": "100"
             },
             {
                 "state": "Hokkaido",
-                "confirmed": "823",
+                "confirmed": "848",
                 "recovered": "Não há dados",
                 "death": "40"
             },
             {
                 "state": "Hyōgo",
-                "confirmed": "655",
+                "confirmed": "668",
                 "recovered": "Não há dados",
                 "death": "28"
             },
@@ -3370,25 +3377,25 @@
             },
             {
                 "state": "Aichi",
-                "confirmed": "490",
+                "confirmed": "492",
                 "recovered": "Não há dados",
                 "death": "34"
             },
             {
                 "state": "Quioto",
-                "confirmed": "329",
+                "confirmed": "331",
                 "recovered": "Não há dados",
                 "death": "30"
             },
             {
                 "state": "Ishikawa",
-                "confirmed": "260",
+                "confirmed": "264",
                 "recovered": "Não há dados",
                 "death": "13"
             },
             {
                 "state": "Toyama",
-                "confirmed": "209",
+                "confirmed": "212",
                 "recovered": "Não há dados",
                 "death": "10"
             },
@@ -3406,7 +3413,7 @@
             },
             {
                 "state": "Província de Hiroshima",
-                "confirmed": "160",
+                "confirmed": "161",
                 "recovered": "Não há dados",
                 "death": "2"
             },
@@ -3448,9 +3455,15 @@
             },
             {
                 "state": "Nara",
-                "confirmed": "86",
+                "confirmed": "87",
                 "recovered": "Não há dados",
                 "death": "8"
+            },
+            {
+                "state": "Fukushima",
+                "confirmed": "78",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
             },
             {
                 "state": "Niigata",
@@ -3469,12 +3482,6 @@
                 "confirmed": "73",
                 "recovered": "Não há dados",
                 "death": "1"
-            },
-            {
-                "state": "Fukushima",
-                "confirmed": "73",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
             },
             {
                 "state": "Nagano",
@@ -3501,28 +3508,28 @@
                 "death": "16"
             },
             {
-                "state": "Tochigi",
-                "confirmed": "55",
+                "state": "Yamanashi",
+                "confirmed": "56",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
-                "state": "Yamanashi",
-                "confirmed": "55",
+                "state": "Tochigi",
+                "confirmed": "54",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
+            },
+            {
+                "state": "Ehime",
+                "confirmed": "48",
+                "recovered": "Não há dados",
+                "death": "3"
             },
             {
                 "state": "Kumamoto",
                 "confirmed": "47",
                 "recovered": "Não há dados",
                 "death": "1"
-            },
-            {
-                "state": "Ehime",
-                "confirmed": "47",
-                "recovered": "Não há dados",
-                "death": "3"
             },
             {
                 "state": "Mie",
@@ -3532,13 +3539,13 @@
             },
             {
                 "state": "Saga",
-                "confirmed": "41",
+                "confirmed": "44",
                 "recovered": "Não há dados",
                 "death": "1"
             },
             {
                 "state": "Yamaguchi",
-                "confirmed": "34",
+                "confirmed": "35",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -3555,16 +3562,16 @@
                 "death": "Não há dados"
             },
             {
+                "state": "Shimane",
+                "confirmed": "24",
+                "recovered": "Não há dados",
+                "death": "2"
+            },
+            {
                 "state": "Okayama",
                 "confirmed": "23",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
-            },
-            {
-                "state": "Shimane",
-                "confirmed": "23",
-                "recovered": "Não há dados",
-                "death": "2"
             },
             {
                 "state": "Miyazaki",
@@ -3605,106 +3612,99 @@
         ]
     },
     {
-        "country": "Catar",
-        "confirmed": "14.782",
-        "recovered": "1.534",
-        "death": "12",
-        "states": []
-    },
-    {
         "country": "Emirados Árabes Unidos",
-        "confirmed": "13.599",
-        "recovered": "2.664",
-        "death": "119",
+        "confirmed": "14.163",
+        "recovered": "2.762",
+        "death": "126",
         "states": []
     },
     {
         "country": "Polônia",
-        "confirmed": "13.375",
-        "recovered": "3.762",
-        "death": "664",
+        "confirmed": "13.693",
+        "recovered": "3.945",
+        "death": "678",
         "states": [
             {
+                "state": "Silésia",
+                "confirmed": "2.576",
+                "recovered": "Não há dados",
+                "death": "126"
+            },
+            {
                 "state": "Voivodia da Mazóvia",
-                "confirmed": "2.477",
+                "confirmed": "2.508",
                 "recovered": "Não há dados",
                 "death": "205"
             },
             {
-                "state": "Silésia",
-                "confirmed": "2.446",
-                "recovered": "Não há dados",
-                "death": "122"
-            },
-            {
                 "state": "Voivodia da Baixa Silésia",
-                "confirmed": "1.620",
+                "confirmed": "1.645",
                 "recovered": "Não há dados",
-                "death": "49"
+                "death": "52"
             },
             {
                 "state": "Grande Polônia",
-                "confirmed": "1.494",
+                "confirmed": "1.518",
                 "recovered": "Não há dados",
-                "death": "90"
+                "death": "93"
             },
             {
                 "state": "Voivodia de Łódź",
-                "confirmed": "1.006",
+                "confirmed": "1.049",
                 "recovered": "Não há dados",
                 "death": "35"
             },
             {
                 "state": "Voivodia da Pequena Polónia",
-                "confirmed": "934",
+                "confirmed": "944",
                 "recovered": "Não há dados",
                 "death": "32"
             },
             {
                 "state": "Voivodia da Cujávia-Pomerânia",
-                "confirmed": "554",
+                "confirmed": "557",
                 "recovered": "Não há dados",
                 "death": "29"
             },
             {
                 "state": "Pomerânia",
-                "confirmed": "440",
+                "confirmed": "444",
                 "recovered": "Não há dados",
-                "death": "14"
+                "death": "15"
             },
             {
                 "state": "Opole",
-                "confirmed": "407",
+                "confirmed": "422",
                 "recovered": "Não há dados",
-                "death": "28"
+                "death": "29"
             },
             {
                 "state": "Voivodia da Pomerânia Ocidental",
-                "confirmed": "406",
+                "confirmed": "414",
                 "recovered": "Não há dados",
                 "death": "10"
             },
             {
                 "state": "Voivodia da Podláquia",
-                "confirmed": "378",
+                "confirmed": "379",
                 "recovered": "Não há dados",
                 "death": "5"
             },
             {
                 "state": "Voivodia de Lublin",
-                "confirmed": "367",
+                "confirmed": "374",
                 "recovered": "Não há dados",
-                "death": "13"
+                "death": "14"
             },
             {
                 "state": "Voivodia da Subcarpácia",
-                "confirmed": "341",
+                "confirmed": "350",
                 "recovered": "Não há dados",
-                "death": "23"
+                "death": "24"
             },
             {
                 "state": "Santa Cruz",
-                "confirmed": "271",
+                "confirmed": "278",
                 "recovered": "Não há dados",
                 "death": "8"
             },
@@ -3716,7 +3716,7 @@
             },
             {
                 "state": "Lubúsquia",
-                "confirmed": "87",
+                "confirmed": "88",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             }
@@ -3724,145 +3724,145 @@
     },
     {
         "country": "Romênia",
-        "confirmed": "12.732",
-        "recovered": "4.547",
-        "death": "771",
+        "confirmed": "13.163",
+        "recovered": "4.869",
+        "death": "780",
         "states": [
             {
                 "state": "Suceava",
-                "confirmed": "2.881",
+                "confirmed": "2.899",
                 "recovered": "Não há dados",
                 "death": "105"
             },
             {
                 "state": "Bucareste",
-                "confirmed": "1.305",
+                "confirmed": "1.354",
                 "recovered": "Não há dados",
                 "death": "31"
             },
             {
                 "state": "Arad",
-                "confirmed": "576",
+                "confirmed": "606",
                 "recovered": "Não há dados",
                 "death": "25"
             },
             {
                 "state": "Hunedoara",
-                "confirmed": "517",
+                "confirmed": "527",
                 "recovered": "Não há dados",
                 "death": "25"
             },
             {
                 "state": "Neamţ",
-                "confirmed": "512",
+                "confirmed": "520",
                 "recovered": "Não há dados",
                 "death": "10"
             },
             {
                 "state": "Brașov",
-                "confirmed": "473",
+                "confirmed": "489",
                 "recovered": "Não há dados",
                 "death": "17"
             },
             {
+                "state": "Mureș",
+                "confirmed": "487",
+                "recovered": "Não há dados",
+                "death": "31"
+            },
+            {
+                "state": "Botoşani",
+                "confirmed": "483",
+                "recovered": "Não há dados",
+                "death": "3"
+            },
+            {
                 "state": "Timiş",
-                "confirmed": "466",
+                "confirmed": "479",
                 "recovered": "Não há dados",
                 "death": "14"
             },
             {
                 "state": "Bihor",
-                "confirmed": "460",
+                "confirmed": "467",
                 "recovered": "Não há dados",
                 "death": "3"
-            },
-            {
-                "state": "Botoşani",
-                "confirmed": "458",
-                "recovered": "Não há dados",
-                "death": "3"
-            },
-            {
-                "state": "Mureș",
-                "confirmed": "447",
-                "recovered": "Não há dados",
-                "death": "31"
-            },
-            {
-                "state": "Cluj",
-                "confirmed": "399",
-                "recovered": "Não há dados",
-                "death": "4"
             },
             {
                 "state": "Galaţi",
-                "confirmed": "396",
+                "confirmed": "422",
                 "recovered": "Não há dados",
                 "death": "8"
             },
             {
+                "state": "Cluj",
+                "confirmed": "407",
+                "recovered": "Não há dados",
+                "death": "4"
+            },
+            {
                 "state": "Sibiu",
-                "confirmed": "334",
+                "confirmed": "352",
                 "recovered": "Não há dados",
                 "death": "9"
             },
             {
+                "state": "Vrancea",
+                "confirmed": "287",
+                "recovered": "Não há dados",
+                "death": "3"
+            },
+            {
                 "state": "Ilfov",
-                "confirmed": "272",
+                "confirmed": "281",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Iaşi",
-                "confirmed": "267",
+                "confirmed": "276",
                 "recovered": "Não há dados",
                 "death": "6"
             },
             {
-                "state": "Vrancea",
-                "confirmed": "259",
-                "recovered": "Não há dados",
-                "death": "3"
-            },
-            {
                 "state": "Bacău",
-                "confirmed": "253",
+                "confirmed": "269",
                 "recovered": "Não há dados",
                 "death": "8"
             },
             {
                 "state": "Constanţa",
-                "confirmed": "238",
+                "confirmed": "243",
                 "recovered": "Não há dados",
                 "death": "5"
             },
             {
-                "state": "Alba",
-                "confirmed": "206",
-                "recovered": "Não há dados",
-                "death": "4"
-            },
-            {
                 "state": "Bistrița-Năsăud",
-                "confirmed": "203",
+                "confirmed": "215",
                 "recovered": "Não há dados",
                 "death": "8"
             },
             {
                 "state": "Ialomiţa",
-                "confirmed": "191",
+                "confirmed": "214",
                 "recovered": "Não há dados",
                 "death": "9"
             },
             {
+                "state": "Alba",
+                "confirmed": "208",
+                "recovered": "Não há dados",
+                "death": "4"
+            },
+            {
                 "state": "Covasna",
-                "confirmed": "189",
+                "confirmed": "196",
                 "recovered": "Não há dados",
                 "death": "3"
             },
             {
                 "state": "Argeș",
-                "confirmed": "143",
+                "confirmed": "154",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -3874,7 +3874,7 @@
             },
             {
                 "state": "Dolj",
-                "confirmed": "127",
+                "confirmed": "128",
                 "recovered": "Não há dados",
                 "death": "2"
             },
@@ -3886,72 +3886,72 @@
             },
             {
                 "state": "Dâmbovița",
-                "confirmed": "103",
+                "confirmed": "110",
                 "recovered": "Não há dados",
                 "death": "2"
             },
             {
                 "state": "Teleorman",
-                "confirmed": "102",
+                "confirmed": "105",
                 "recovered": "Não há dados",
                 "death": "2"
             },
             {
                 "state": "Caraș-Severin",
-                "confirmed": "94",
+                "confirmed": "102",
                 "recovered": "Não há dados",
                 "death": "2"
             },
             {
                 "state": "Maramureș",
-                "confirmed": "74",
+                "confirmed": "75",
                 "recovered": "Não há dados",
                 "death": "1"
             },
             {
                 "state": "Prahova",
-                "confirmed": "72",
+                "confirmed": "73",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Mehedinţi",
-                "confirmed": "65",
+                "confirmed": "67",
                 "recovered": "Não há dados",
                 "death": "3"
             },
             {
                 "state": "Gorj",
-                "confirmed": "59",
+                "confirmed": "65",
                 "recovered": "Não há dados",
                 "death": "1"
             },
             {
-                "state": "Satu Mare",
-                "confirmed": "54",
-                "recovered": "Não há dados",
-                "death": "5"
-            },
-            {
                 "state": "Tulcea",
-                "confirmed": "53",
+                "confirmed": "54",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Călăraşi",
-                "confirmed": "51",
+                "confirmed": "53",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
+                "state": "Satu Mare",
+                "confirmed": "52",
+                "recovered": "Não há dados",
+                "death": "5"
+            },
+            {
                 "state": "Sălaj",
-                "confirmed": "34",
+                "confirmed": "40",
                 "recovered": "Não há dados",
                 "death": "1"
             },
             {
-                "state": "Vâlcea",
+                "state": "Brăila",
                 "confirmed": "25",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
@@ -3963,14 +3963,14 @@
                 "death": "1"
             },
             {
-                "state": "Brăila",
-                "confirmed": "23",
+                "state": "Vâlcea",
+                "confirmed": "24",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Buzău",
-                "confirmed": "20",
+                "confirmed": "21",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             }
@@ -3978,208 +3978,214 @@
     },
     {
         "country": "Ucrânia",
-        "confirmed": "11.411",
-        "recovered": "1.498",
-        "death": "279",
+        "confirmed": "11.913",
+        "recovered": "1.547",
+        "death": "288",
         "states": [
             {
                 "state": "Oblast de Chernivtsi",
-                "confirmed": "1.571",
-                "recovered": "110",
-                "death": "39"
+                "confirmed": "1.818",
+                "recovered": "138",
+                "death": "47"
             },
             {
                 "state": "Kyiv city",
-                "confirmed": "1.401",
-                "recovered": "75",
-                "death": "25"
+                "confirmed": "1.511",
+                "recovered": "80",
+                "death": "26"
             },
             {
                 "state": "Ivano-Frankivsk",
-                "confirmed": "862",
-                "recovered": "72",
-                "death": "50"
+                "confirmed": "965",
+                "recovered": "86",
+                "death": "54"
             },
             {
                 "state": "Ternopilska",
-                "confirmed": "779",
-                "recovered": "78",
-                "death": "14"
-            },
-            {
-                "state": "Oblast de Kiev",
-                "confirmed": "664",
-                "recovered": "73",
+                "confirmed": "868",
+                "recovered": "127",
                 "death": "15"
             },
             {
-                "state": "Rivne",
-                "confirmed": "637",
-                "recovered": "59",
-                "death": "11"
+                "state": "Oblast de Kiev",
+                "confirmed": "784",
+                "recovered": "82",
+                "death": "17"
             },
             {
-                "state": "Oblast de Lviv",
-                "confirmed": "430",
-                "recovered": "77",
-                "death": "14"
+                "state": "Rivne",
+                "confirmed": "726",
+                "recovered": "78",
+                "death": "12"
             },
             {
                 "state": "Zakarpatska",
-                "confirmed": "419",
-                "recovered": "48",
-                "death": "9"
+                "confirmed": "508",
+                "recovered": "53",
+                "death": "10"
+            },
+            {
+                "state": "Oblast de Lviv",
+                "confirmed": "473",
+                "recovered": "95",
+                "death": "15"
+            },
+            {
+                "state": "Oblast de Dnipropetrovsk",
+                "confirmed": "448",
+                "recovered": "64",
+                "death": "4"
             },
             {
                 "state": "Vinnytska",
-                "confirmed": "417",
-                "recovered": "127",
+                "confirmed": "435",
+                "recovered": "146",
+                "death": "3"
+            },
+            {
+                "state": "Zhytomyr",
+                "confirmed": "423",
+                "recovered": "23",
+                "death": "10"
+            },
+            {
+                "state": "Odesa",
+                "confirmed": "409",
+                "recovered": "17",
                 "death": "3"
             },
             {
                 "state": "Kirovohradska",
-                "confirmed": "391",
-                "recovered": "100",
-                "death": "18"
-            },
-            {
-                "state": "Zhytomyr",
-                "confirmed": "374",
-                "recovered": "21",
-                "death": "10"
-            },
-            {
-                "state": "Oblast de Dnipropetrovsk",
-                "confirmed": "347",
-                "recovered": "23",
-                "death": "3"
-            },
-            {
-                "state": "Tcherkássi",
-                "confirmed": "290",
-                "recovered": "60",
-                "death": "8"
-            },
-            {
-                "state": "Volynska",
-                "confirmed": "280",
-                "recovered": "60",
-                "death": "6"
-            },
-            {
-                "state": "Odesa",
-                "confirmed": "277",
-                "recovered": "15",
-                "death": "3"
+                "confirmed": "397",
+                "recovered": "121",
+                "death": "19"
             },
             {
                 "state": "Kharkiv",
-                "confirmed": "249",
-                "recovered": "20",
-                "death": "4"
+                "confirmed": "348",
+                "recovered": "36",
+                "death": "6"
+            },
+            {
+                "state": "Volynska",
+                "confirmed": "324",
+                "recovered": "64",
+                "death": "6"
+            },
+            {
+                "state": "Tcherkássi",
+                "confirmed": "308",
+                "recovered": "63",
+                "death": "9"
             },
             {
                 "state": "Zaporizka",
-                "confirmed": "243",
-                "recovered": "62",
+                "confirmed": "275",
+                "recovered": "79",
                 "death": "5"
             },
             {
                 "state": "Poltavska",
-                "confirmed": "203",
-                "recovered": "21",
-                "death": "6"
+                "confirmed": "222",
+                "recovered": "23",
+                "death": "7"
             },
             {
                 "state": "Oblast de Mikolaiv",
-                "confirmed": "126",
-                "recovered": "5",
-                "death": "2"
+                "confirmed": "149",
+                "recovered": "6",
+                "death": "3"
             },
             {
                 "state": "Kherson",
-                "confirmed": "111",
-                "recovered": "35",
+                "confirmed": "136",
+                "recovered": "52",
                 "death": "2"
             },
             {
-                "state": "Sums ka",
-                "confirmed": "102",
-                "recovered": "57",
-                "death": "4"
-            },
-            {
                 "state": "Oblast de Khmelnitski",
-                "confirmed": "82",
-                "recovered": "20",
+                "confirmed": "115",
+                "recovered": "27",
                 "death": "5"
             },
             {
+                "state": "Sums ka",
+                "confirmed": "110",
+                "recovered": "62",
+                "death": "4"
+            },
+            {
                 "state": "Oblast de Donetsk",
-                "confirmed": "68",
-                "recovered": "10",
+                "confirmed": "70",
+                "recovered": "12",
                 "death": "1"
             },
             {
                 "state": "Tchernihivska",
-                "confirmed": "50",
+                "confirmed": "54",
                 "recovered": "6",
-                "death": "4"
+                "death": "5"
             },
             {
                 "state": "Luhanska",
-                "confirmed": "33",
-                "recovered": "4",
+                "confirmed": "37",
+                "recovered": "7",
                 "death": "0"
             }
         ]
     },
     {
         "country": "Indonésia",
-        "confirmed": "10.843",
-        "recovered": "1.665",
-        "death": "831",
+        "confirmed": "11.192",
+        "recovered": "1.876",
+        "death": "845",
         "states": [
             {
                 "state": "Jacarta",
-                "confirmed": "4.397",
-                "recovered": "513",
-                "death": "392"
-            },
-            {
-                "state": "Java Ocidental",
-                "confirmed": "1.043",
-                "recovered": "147",
-                "death": "84"
+                "confirmed": "4.463",
+                "recovered": "632",
+                "death": "398"
             },
             {
                 "state": "Java Oriental",
-                "confirmed": "1.037",
-                "recovered": "165",
-                "death": "106"
+                "confirmed": "1.117",
+                "recovered": "174",
+                "death": "111"
+            },
+            {
+                "state": "Java Ocidental",
+                "confirmed": "1.054",
+                "recovered": "152",
+                "death": "85"
             },
             {
                 "state": "Java Central",
-                "confirmed": "767",
+                "confirmed": "776",
                 "recovered": "112",
                 "death": "62"
             },
             {
                 "state": "Celebes do Sul",
-                "confirmed": "577",
-                "recovered": "145",
+                "confirmed": "601",
+                "recovered": "151",
                 "death": "40"
             },
             {
                 "state": "Banten",
-                "confirmed": "427",
+                "confirmed": "432",
                 "recovered": "34",
                 "death": "41"
             },
             {
                 "state": "Sonda Ocidental",
-                "confirmed": "250",
-                "recovered": "32",
+                "confirmed": "269",
+                "recovered": "36",
+                "death": "4"
+            },
+            {
+                "state": "Bali",
+                "confirmed": "262",
+                "recovered": "151",
                 "death": "4"
             },
             {
@@ -4189,40 +4195,40 @@
                 "death": "6"
             },
             {
-                "state": "Bali",
-                "confirmed": "237",
-                "recovered": "129",
-                "death": "4"
-            },
-            {
                 "state": "Sumatra Ocidental",
-                "confirmed": "182",
-                "recovered": "30",
+                "confirmed": "195",
+                "recovered": "35",
                 "death": "15"
             },
             {
                 "state": "Kalimantan do Sul",
-                "confirmed": "179",
+                "confirmed": "195",
                 "recovered": "24",
                 "death": "9"
             },
             {
-                "state": "Kalimantan Central",
-                "confirmed": "157",
-                "recovered": "11",
-                "death": "6"
-            },
-            {
                 "state": "Sumatra do Sul",
-                "confirmed": "156",
-                "recovered": "29",
-                "death": "3"
+                "confirmed": "185",
+                "recovered": "36",
+                "death": "4"
             },
             {
                 "state": "Kalimantan Oriental",
-                "confirmed": "154",
+                "confirmed": "162",
                 "recovered": "13",
                 "death": "1"
+            },
+            {
+                "state": "Kalimantan Central",
+                "confirmed": "157",
+                "recovered": "15",
+                "death": "7"
+            },
+            {
+                "state": "Sumatra do Norte",
+                "confirmed": "123",
+                "recovered": "41",
+                "death": "13"
             },
             {
                 "state": "Kalimantan Setentrional",
@@ -4231,26 +4237,20 @@
                 "death": "1"
             },
             {
-                "state": "Sumatra do Norte",
-                "confirmed": "117",
-                "recovered": "41",
-                "death": "13"
-            },
-            {
                 "state": "Yogyakarta",
-                "confirmed": "114",
-                "recovered": "48",
+                "confirmed": "115",
+                "recovered": "49",
                 "death": "7"
             },
             {
                 "state": "Arquipélago de Riau",
-                "confirmed": "89",
-                "recovered": "22",
+                "confirmed": "92",
+                "recovered": "42",
                 "death": "9"
             },
             {
                 "state": "Kalimantan Ocidental",
-                "confirmed": "68",
+                "confirmed": "70",
                 "recovered": "8",
                 "death": "3"
             },
@@ -4267,15 +4267,21 @@
                 "death": "3"
             },
             {
-                "state": "Lampung",
-                "confirmed": "50",
-                "recovered": "13",
+                "state": "Riau",
+                "confirmed": "53",
+                "recovered": "26",
                 "death": "5"
             },
             {
-                "state": "Riau",
-                "confirmed": "45",
-                "recovered": "23",
+                "state": "Molucas do Norte",
+                "confirmed": "50",
+                "recovered": "5",
+                "death": "0"
+            },
+            {
+                "state": "Lampung",
+                "confirmed": "50",
+                "recovered": "17",
                 "death": "5"
             },
             {
@@ -4297,14 +4303,8 @@
                 "death": "1"
             },
             {
-                "state": "Molucas do Norte",
-                "confirmed": "41",
-                "recovered": "3",
-                "death": "0"
-            },
-            {
                 "state": "Jambi",
-                "confirmed": "32",
+                "confirmed": "38",
                 "recovered": "1",
                 "death": "0"
             },
@@ -4316,7 +4316,7 @@
             },
             {
                 "state": "Bangka-Belitung",
-                "confirmed": "19",
+                "confirmed": "20",
                 "recovered": "4",
                 "death": "1"
             },
@@ -4327,20 +4327,20 @@
                 "death": "1"
             },
             {
+                "state": "Achém",
+                "confirmed": "12",
+                "recovered": "6",
+                "death": "1"
+            },
+            {
                 "state": "Bengkulu",
                 "confirmed": "12",
                 "recovered": "1",
                 "death": "1"
             },
             {
-                "state": "Achém",
-                "confirmed": "11",
-                "recovered": "6",
-                "death": "1"
-            },
-            {
                 "state": "Sonda Oriental",
-                "confirmed": "3",
+                "confirmed": "10",
                 "recovered": "1",
                 "death": "0"
             }
@@ -4458,23 +4458,30 @@
     },
     {
         "country": "Dinamarca",
-        "confirmed": "9.407",
-        "recovered": "6.889",
-        "death": "475",
+        "confirmed": "9.563",
+        "recovered": "6.987",
+        "death": "484",
         "states": []
     },
     {
         "country": "Sérvia",
-        "confirmed": "9.362",
-        "recovered": "1.426",
-        "death": "189",
+        "confirmed": "9.464",
+        "recovered": "1.551",
+        "death": "193",
+        "states": []
+    },
+    {
+        "country": "Bangladesh",
+        "confirmed": "9.455",
+        "recovered": "1.063",
+        "death": "177",
         "states": []
     },
     {
         "country": "Filipinas",
-        "confirmed": "8.928",
-        "recovered": "1.124",
-        "death": "603",
+        "confirmed": "9.223",
+        "recovered": "1.214",
+        "death": "607",
         "states": [
             {
                 "state": "Grande Manila",
@@ -4581,15 +4588,8 @@
         ]
     },
     {
-        "country": "Bangladesh",
-        "confirmed": "8.790",
-        "recovered": "177",
-        "death": "175",
-        "states": []
-    },
-    {
         "country": "Noruega",
-        "confirmed": "7.809",
+        "confirmed": "7.833",
         "recovered": "Não há dados",
         "death": "211",
         "states": [
@@ -4663,8 +4663,8 @@
     },
     {
         "country": "Tchéquia",
-        "confirmed": "7.755",
-        "recovered": "3.461",
+        "confirmed": "7.764",
+        "recovered": "3.584",
         "death": "245",
         "states": []
     },
@@ -4884,9 +4884,9 @@
     },
     {
         "country": "Austrália",
-        "confirmed": "6.783",
-        "recovered": "5.789",
-        "death": "93",
+        "confirmed": "6.801",
+        "recovered": "5.817",
+        "death": "95",
         "states": [
             {
                 "state": "Nova Gales do Sul",
@@ -4940,30 +4940,30 @@
     },
     {
         "country": "África do Sul",
-        "confirmed": "6.336",
+        "confirmed": "6.783",
         "recovered": "2.549",
-        "death": "123",
+        "death": "131",
         "states": []
     },
     {
         "country": "Egito",
-        "confirmed": "6.193",
-        "recovered": "1.522",
-        "death": "415",
+        "confirmed": "6.465",
+        "recovered": "1.562",
+        "death": "429",
         "states": []
     },
     {
         "country": "Malásia",
-        "confirmed": "6.176",
-        "recovered": "4.326",
-        "death": "103",
+        "confirmed": "6.298",
+        "recovered": "4.413",
+        "death": "105",
         "states": []
     },
     {
         "country": "Finlândia",
-        "confirmed": "5.176",
+        "confirmed": "5.254",
         "recovered": "3.000",
-        "death": "220",
+        "death": "230",
         "states": [
             {
                 "state": "Uusimaa",
@@ -5076,44 +5076,51 @@
         ]
     },
     {
+        "country": "Kuwait",
+        "confirmed": "4.983",
+        "recovered": "1.776",
+        "death": "38",
+        "states": []
+    },
+    {
         "country": "Marrocos",
-        "confirmed": "4.729",
-        "recovered": "1.256",
-        "death": "173",
+        "confirmed": "4.903",
+        "recovered": "1.438",
+        "death": "174",
         "states": [
             {
                 "state": "Casablanca-Settat",
-                "confirmed": "1.203",
+                "confirmed": "1.265",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Marraquexe-Safim",
-                "confirmed": "1.059",
+                "confirmed": "1.070",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Tânger-Tetuão-Al Hoceïma",
-                "confirmed": "657",
+                "confirmed": "704",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Fez-Meknès",
-                "confirmed": "584",
+                "confirmed": "619",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Drá-Tafilete",
-                "confirmed": "546",
+                "confirmed": "548",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Rabate-Salé-Quenitra",
-                "confirmed": "329",
+                "confirmed": "342",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -5125,7 +5132,7 @@
             },
             {
                 "state": "Beni Mellal-Quenifra",
-                "confirmed": "83",
+                "confirmed": "84",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -5137,7 +5144,7 @@
             },
             {
                 "state": "Guelmim-Oued Noun",
-                "confirmed": "36",
+                "confirmed": "39",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -5163,27 +5170,27 @@
         "states": [
             {
                 "state": "Buenos Aires",
-                "confirmed": "1.632",
+                "confirmed": "1.677",
                 "recovered": "Não há dados",
-                "death": "90"
+                "death": "92"
             },
             {
                 "state": "Cidade Autônoma de Buenos Aires",
-                "confirmed": "1.614",
+                "confirmed": "1.673",
                 "recovered": "Não há dados",
-                "death": "86"
+                "death": "93"
             },
             {
                 "state": "Chaco",
-                "confirmed": "329",
+                "confirmed": "340",
                 "recovered": "Não há dados",
-                "death": "17"
+                "death": "18"
             },
             {
                 "state": "Córdova",
-                "confirmed": "295",
+                "confirmed": "307",
                 "recovered": "Não há dados",
-                "death": "14"
+                "death": "15"
             },
             {
                 "state": "Santa Fé",
@@ -5193,13 +5200,13 @@
             },
             {
                 "state": "Río Negro",
-                "confirmed": "236",
+                "confirmed": "242",
                 "recovered": "Não há dados",
                 "death": "8"
             },
             {
                 "state": "Terra do Fogo",
-                "confirmed": "127",
+                "confirmed": "130",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -5211,7 +5218,7 @@
             },
             {
                 "state": "Mendoza",
-                "confirmed": "84",
+                "confirmed": "85",
                 "recovered": "Não há dados",
                 "death": "10"
             },
@@ -5246,16 +5253,16 @@
                 "death": "Não há dados"
             },
             {
+                "state": "Misiones",
+                "confirmed": "24",
+                "recovered": "Não há dados",
+                "death": "1"
+            },
+            {
                 "state": "Santiago del Estero",
                 "confirmed": "15",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
-            },
-            {
-                "state": "Misiones",
-                "confirmed": "12",
-                "recovered": "Não há dados",
-                "death": "1"
             },
             {
                 "state": "San Luis",
@@ -5276,14 +5283,14 @@
                 "death": "Não há dados"
             },
             {
-                "state": "Salta",
+                "state": "Chubut",
                 "confirmed": "4",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
-                "state": "Chubut",
-                "confirmed": "3",
+                "state": "Salta",
+                "confirmed": "4",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -5296,45 +5303,38 @@
         ]
     },
     {
-        "country": "Kuwait",
-        "confirmed": "4.619",
-        "recovered": "1.703",
-        "death": "33",
-        "states": []
-    },
-    {
         "country": "Argélia",
-        "confirmed": "4.295",
-        "recovered": "1.872",
-        "death": "459",
+        "confirmed": "4.474",
+        "recovered": "1.936",
+        "death": "463",
         "states": [
             {
                 "state": "Blida",
-                "confirmed": "820",
+                "confirmed": "839",
                 "recovered": "133",
-                "death": "107"
+                "death": "108"
             },
             {
                 "state": "Argel",
-                "confirmed": "533",
+                "confirmed": "536",
                 "recovered": "261",
-                "death": "109"
+                "death": "110"
             },
             {
                 "state": "Orã",
-                "confirmed": "254",
+                "confirmed": "258",
                 "recovered": "50",
                 "death": "13"
             },
             {
                 "state": "Sétif",
-                "confirmed": "211",
+                "confirmed": "216",
                 "recovered": "2",
-                "death": "16"
+                "death": "17"
             },
             {
                 "state": "Aïn Defla",
-                "confirmed": "205",
+                "confirmed": "214",
                 "recovered": "0",
                 "death": "5"
             },
@@ -5346,7 +5346,7 @@
             },
             {
                 "state": "Tipasa",
-                "confirmed": "161",
+                "confirmed": "169",
                 "recovered": "0",
                 "death": "24"
             },
@@ -5358,33 +5358,45 @@
             },
             {
                 "state": "Bugia",
-                "confirmed": "134",
+                "confirmed": "135",
                 "recovered": "1",
                 "death": "14"
             },
             {
-                "state": "Tizi Ouzou",
-                "confirmed": "105",
-                "recovered": "37",
-                "death": "15"
-            },
-            {
                 "state": "Tlemcen",
-                "confirmed": "99",
+                "confirmed": "117",
                 "recovered": "0",
                 "death": "6"
             },
             {
+                "state": "Tizi Ouzou",
+                "confirmed": "106",
+                "recovered": "37",
+                "death": "15"
+            },
+            {
+                "state": "Ouargla",
+                "confirmed": "88",
+                "recovered": "1",
+                "death": "8"
+            },
+            {
+                "state": "Médéa",
+                "confirmed": "88",
+                "recovered": "21",
+                "death": "10"
+            },
+            {
                 "state": "Tiaret",
-                "confirmed": "81",
+                "confirmed": "84",
                 "recovered": "0",
                 "death": "5"
             },
             {
-                "state": "Médéa",
-                "confirmed": "79",
-                "recovered": "21",
-                "death": "10"
+                "state": "Annaba",
+                "confirmed": "81",
+                "recovered": "3",
+                "death": "4"
             },
             {
                 "state": "Oum el Bouaghi",
@@ -5393,28 +5405,22 @@
                 "death": "5"
             },
             {
-                "state": "Annaba",
-                "confirmed": "67",
-                "recovered": "3",
-                "death": "4"
-            },
-            {
-                "state": "Ouargla",
-                "confirmed": "67",
-                "recovered": "1",
-                "death": "7"
-            },
-            {
                 "state": "Djelfa",
-                "confirmed": "63",
+                "confirmed": "70",
                 "recovered": "19",
                 "death": "5"
             },
             {
                 "state": "Ghardaia",
-                "confirmed": "60",
+                "confirmed": "68",
                 "recovered": "0",
                 "death": "4"
+            },
+            {
+                "state": "Biskra",
+                "confirmed": "65",
+                "recovered": "2",
+                "death": "6"
             },
             {
                 "state": "Mostaganem",
@@ -5423,10 +5429,10 @@
                 "death": "3"
             },
             {
-                "state": "Biskra",
-                "confirmed": "60",
+                "state": "Mascara",
+                "confirmed": "52",
                 "recovered": "2",
-                "death": "6"
+                "death": "4"
             },
             {
                 "state": "Boumerdès",
@@ -5435,10 +5441,10 @@
                 "death": "8"
             },
             {
-                "state": "Mascara",
+                "state": "Sidi Bel Abbès",
                 "confirmed": "51",
-                "recovered": "2",
-                "death": "4"
+                "recovered": "0",
+                "death": "6"
             },
             {
                 "state": "Skikda",
@@ -5447,10 +5453,10 @@
                 "death": "4"
             },
             {
-                "state": "Sidi Bel Abbès",
-                "confirmed": "50",
-                "recovered": "0",
-                "death": "6"
+                "state": "Batna",
+                "confirmed": "49",
+                "recovered": "42",
+                "death": "4"
             },
             {
                 "state": "Chlef",
@@ -5459,20 +5465,32 @@
                 "death": "1"
             },
             {
+                "state": "Tissemsilt",
+                "confirmed": "47",
+                "recovered": "1",
+                "death": "2"
+            },
+            {
+                "state": "Khenchela",
+                "confirmed": "46",
+                "recovered": "0",
+                "death": "2"
+            },
+            {
+                "state": "Adrar",
+                "confirmed": "46",
+                "recovered": "0",
+                "death": "2"
+            },
+            {
                 "state": "Jijel",
                 "confirmed": "46",
                 "recovered": "0",
                 "death": "5"
             },
             {
-                "state": "Tissemsilt",
-                "confirmed": "46",
-                "recovered": "1",
-                "death": "2"
-            },
-            {
                 "state": "Aïn Témouchent",
-                "confirmed": "44",
+                "confirmed": "45",
                 "recovered": "0",
                 "death": "4"
             },
@@ -5483,28 +5501,16 @@
                 "death": "0"
             },
             {
-                "state": "Adrar",
-                "confirmed": "40",
-                "recovered": "0",
-                "death": "2"
-            },
-            {
                 "state": "El Oued",
                 "confirmed": "40",
                 "recovered": "0",
                 "death": "8"
             },
             {
-                "state": "Khenchela",
-                "confirmed": "39",
+                "state": "Laghouat",
+                "confirmed": "34",
                 "recovered": "0",
-                "death": "2"
-            },
-            {
-                "state": "Batna",
-                "confirmed": "35",
-                "recovered": "42",
-                "death": "4"
+                "death": "0"
             },
             {
                 "state": "Relizane",
@@ -5519,28 +5525,22 @@
                 "death": "3"
             },
             {
-                "state": "Laghouat",
-                "confirmed": "30",
-                "recovered": "0",
-                "death": "0"
-            },
-            {
                 "state": "Bouira",
                 "confirmed": "28",
                 "recovered": "15",
                 "death": "3"
             },
             {
+                "state": "M'Sila",
+                "confirmed": "26",
+                "recovered": "0",
+                "death": "7"
+            },
+            {
                 "state": "Guelma",
                 "confirmed": "24",
                 "recovered": "0",
                 "death": "1"
-            },
-            {
-                "state": "M'Sila",
-                "confirmed": "22",
-                "recovered": "0",
-                "death": "7"
             },
             {
                 "state": "El Tarf",
@@ -5567,6 +5567,12 @@
                 "death": "0"
             },
             {
+                "state": "Naâma",
+                "confirmed": "8",
+                "recovered": "0",
+                "death": "0"
+            },
+            {
                 "state": "Saïda",
                 "confirmed": "5",
                 "recovered": "0",
@@ -5585,12 +5591,6 @@
                 "death": "0"
             },
             {
-                "state": "Naâma",
-                "confirmed": "3",
-                "recovered": "0",
-                "death": "0"
-            },
-            {
                 "state": "Illizi",
                 "confirmed": "2",
                 "recovered": "0",
@@ -5600,9 +5600,9 @@
     },
     {
         "country": "Moldávia",
-        "confirmed": "4.052",
-        "recovered": "1.334",
-        "death": "124",
+        "confirmed": "4.121",
+        "recovered": "1.382",
+        "death": "125",
         "states": [
             {
                 "state": "Chișinău",
@@ -5830,40 +5830,47 @@
     },
     {
         "country": "Cazaquistão",
-        "confirmed": "3.857",
-        "recovered": "995",
-        "death": "25",
+        "confirmed": "3.913",
+        "recovered": "1.056",
+        "death": "27",
         "states": []
     },
     {
         "country": "Luxemburgo",
-        "confirmed": "3.812",
-        "recovered": "3.318",
-        "death": "92",
+        "confirmed": "3.824",
+        "recovered": "3.379",
+        "death": "96",
         "states": []
     },
     {
         "country": "Bahrein",
-        "confirmed": "3.284",
-        "recovered": "1.568",
+        "confirmed": "3.383",
+        "recovered": "1.718",
         "death": "8",
         "states": []
     },
     {
+        "country": "Hungria",
+        "confirmed": "2.998",
+        "recovered": "629",
+        "death": "340",
+        "states": []
+    },
+    {
         "country": "Tailândia",
-        "confirmed": "2.966",
-        "recovered": "2.732",
+        "confirmed": "2.969",
+        "recovered": "2.739",
         "death": "54",
         "states": [
             {
                 "state": "Banguecoque",
-                "confirmed": "1.500",
+                "confirmed": "1.538",
                 "recovered": "Não há dados",
                 "death": "23"
             },
             {
                 "state": "Phuket",
-                "confirmed": "216",
+                "confirmed": "220",
                 "recovered": "Não há dados",
                 "death": "2"
             },
@@ -5875,13 +5882,13 @@
             },
             {
                 "state": "Yala",
-                "confirmed": "121",
+                "confirmed": "126",
                 "recovered": "Não há dados",
                 "death": "2"
             },
             {
                 "state": "Samut Prakan",
-                "confirmed": "113",
+                "confirmed": "114",
                 "recovered": "Não há dados",
                 "death": "4"
             },
@@ -6019,7 +6026,7 @@
             },
             {
                 "state": "Samut Sakhon",
-                "confirmed": "12",
+                "confirmed": "14",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -6320,91 +6327,76 @@
         ]
     },
     {
-        "country": "Hungria",
-        "confirmed": "2.942",
-        "recovered": "625",
-        "death": "335",
-        "states": []
-    },
-    {
-        "country": "Grécia",
-        "confirmed": "2.612",
-        "recovered": "1.374",
-        "death": "143",
-        "states": []
-    },
-    {
-        "country": "Omã",
-        "confirmed": "2.483",
-        "recovered": "750",
-        "death": "12",
-        "states": []
-    },
-    {
         "country": "Afeganistão",
-        "confirmed": "2.469",
-        "recovered": "331",
-        "death": "72",
+        "confirmed": "2.704",
+        "recovered": "345",
+        "death": "85",
         "states": [
             {
                 "state": "Cabul",
-                "confirmed": "692",
+                "confirmed": "755",
                 "recovered": "106",
                 "death": "15"
             },
             {
                 "state": "Herat",
-                "confirmed": "522",
-                "recovered": "133",
+                "confirmed": "541",
+                "recovered": "139",
                 "death": "13"
             },
             {
                 "state": "Candaar",
-                "confirmed": "314",
+                "confirmed": "368",
                 "recovered": "7",
-                "death": "7"
+                "death": "8"
             },
             {
                 "state": "Balkh",
                 "confirmed": "191",
                 "recovered": "5",
-                "death": "11"
+                "death": "13"
+            },
+            {
+                "state": "Paktia",
+                "confirmed": "84",
+                "recovered": "5",
+                "death": "1"
+            },
+            {
+                "state": "Nangarhar",
+                "confirmed": "69",
+                "recovered": "6",
+                "death": "9"
             },
             {
                 "state": "Gázni",
                 "confirmed": "64",
                 "recovered": "4",
-                "death": "3"
-            },
-            {
-                "state": "Nangarhar",
-                "confirmed": "57",
-                "recovered": "3",
-                "death": "8"
-            },
-            {
-                "state": "Paktia",
-                "confirmed": "55",
-                "recovered": "6",
-                "death": "1"
-            },
-            {
-                "state": "Nimruz",
-                "confirmed": "52",
-                "recovered": "5",
-                "death": "0"
+                "death": "6"
             },
             {
                 "state": "Takhar",
-                "confirmed": "46",
+                "confirmed": "59",
                 "recovered": "1",
                 "death": "4"
             },
             {
                 "state": "Baghlan",
-                "confirmed": "44",
+                "confirmed": "56",
                 "recovered": "4",
                 "death": "2"
+            },
+            {
+                "state": "Nimruz",
+                "confirmed": "52",
+                "recovered": "7",
+                "death": "0"
+            },
+            {
+                "state": "Laghman",
+                "confirmed": "44",
+                "recovered": "6",
+                "death": "0"
             },
             {
                 "state": "Logar",
@@ -6413,16 +6405,22 @@
                 "death": "1"
             },
             {
-                "state": "Laghman",
+                "state": "Samangan",
                 "confirmed": "39",
-                "recovered": "1",
+                "recovered": "6",
+                "death": "0"
+            },
+            {
+                "state": "Panjshir",
+                "confirmed": "38",
+                "recovered": "0",
                 "death": "0"
             },
             {
                 "state": "Konduz",
                 "confirmed": "37",
                 "recovered": "5",
-                "death": "0"
+                "death": "2"
             },
             {
                 "state": "Jowzjan",
@@ -6431,34 +6429,40 @@
                 "death": "1"
             },
             {
-                "state": "Samangan",
-                "confirmed": "26",
-                "recovered": "6",
-                "death": "0"
-            },
-            {
                 "state": "Helmand",
-                "confirmed": "25",
+                "confirmed": "26",
                 "recovered": "8",
                 "death": "0"
             },
             {
-                "state": "Panjshir",
-                "confirmed": "24",
-                "recovered": "0",
+                "state": "Badghis",
+                "confirmed": "23",
+                "recovered": "2",
+                "death": "0"
+            },
+            {
+                "state": "Ghowr",
+                "confirmed": "23",
+                "recovered": "2",
                 "death": "0"
             },
             {
                 "state": "Kunar",
-                "confirmed": "21",
+                "confirmed": "23",
                 "recovered": "1",
                 "death": "0"
             },
             {
-                "state": "Badghis",
-                "confirmed": "18",
-                "recovered": "2",
-                "death": "0"
+                "state": "Maydan-Wardak",
+                "confirmed": "20",
+                "recovered": "0",
+                "death": "1"
+            },
+            {
+                "state": "Bamiyan",
+                "confirmed": "16",
+                "recovered": "6",
+                "death": "1"
             },
             {
                 "state": "Kapisa",
@@ -6473,20 +6477,8 @@
                 "death": "1"
             },
             {
-                "state": "Ghowr",
+                "state": "Farah",
                 "confirmed": "13",
-                "recovered": "2",
-                "death": "0"
-            },
-            {
-                "state": "Maydan-Wardak",
-                "confirmed": "13",
-                "recovered": "0",
-                "death": "1"
-            },
-            {
-                "state": "Bamiyan",
-                "confirmed": "11",
                 "recovered": "6",
                 "death": "0"
             },
@@ -6497,15 +6489,21 @@
                 "death": "0"
             },
             {
-                "state": "Farah",
-                "confirmed": "9",
-                "recovered": "6",
-                "death": "0"
+                "state": "Sar-e Pol",
+                "confirmed": "10",
+                "recovered": "0",
+                "death": "1"
             },
             {
                 "state": "Fariab",
                 "confirmed": "9",
                 "recovered": "1",
+                "death": "2"
+            },
+            {
+                "state": "Parvan",
+                "confirmed": "9",
+                "recovered": "0",
                 "death": "0"
             },
             {
@@ -6515,22 +6513,10 @@
                 "death": "1"
             },
             {
-                "state": "Parvan",
-                "confirmed": "7",
-                "recovered": "0",
-                "death": "0"
-            },
-            {
-                "state": "Sar-e Pol",
-                "confirmed": "7",
-                "recovered": "0",
-                "death": "1"
-            },
-            {
                 "state": "Khost",
                 "confirmed": "6",
                 "recovered": "0",
-                "death": "0"
+                "death": "1"
             },
             {
                 "state": "Oruzgan",
@@ -6547,6 +6533,20 @@
         ]
     },
     {
+        "country": "Grécia",
+        "confirmed": "2.620",
+        "recovered": "1.473",
+        "death": "144",
+        "states": []
+    },
+    {
+        "country": "Omã",
+        "confirmed": "2.568",
+        "recovered": "750",
+        "death": "12",
+        "states": []
+    },
+    {
         "country": "Nigéria",
         "confirmed": "2.388",
         "recovered": "351",
@@ -6554,79 +6554,79 @@
         "states": [
             {
                 "state": "Lagos",
-                "confirmed": "1.006",
-                "recovered": "225",
-                "death": "28"
+                "confirmed": "1.066",
+                "recovered": "247",
+                "death": "30"
             },
             {
                 "state": "Kano",
-                "confirmed": "311",
-                "recovered": "Não há dados",
-                "death": "3"
+                "confirmed": "313",
+                "recovered": "7",
+                "death": "6"
             },
             {
                 "state": "Território da Capital Abuja",
-                "confirmed": "214",
+                "confirmed": "266",
                 "recovered": "36",
                 "death": "3"
             },
             {
                 "state": "Gombe",
-                "confirmed": "92",
+                "confirmed": "96",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Borno",
-                "confirmed": "69",
+                "confirmed": "75",
                 "recovered": "Não há dados",
-                "death": "6"
+                "death": "11"
+            },
+            {
+                "state": "Kaduna",
+                "confirmed": "66",
+                "recovered": "6",
+                "death": "1"
             },
             {
                 "state": "Ogun",
                 "confirmed": "56",
-                "recovered": "8",
-                "death": "1"
+                "recovered": "9",
+                "death": "2"
+            },
+            {
+                "state": "Sokoto",
+                "confirmed": "54",
+                "recovered": "1",
+                "death": "8"
             },
             {
                 "state": "Bauchi",
-                "confirmed": "48",
+                "confirmed": "53",
                 "recovered": "6",
                 "death": "Não há dados"
             },
             {
                 "state": "Edo",
-                "confirmed": "47",
+                "confirmed": "52",
                 "recovered": "10",
                 "death": "3"
-            },
-            {
-                "state": "Sokoto",
-                "confirmed": "41",
-                "recovered": "1",
-                "death": "7"
             },
             {
                 "state": "Katsina",
                 "confirmed": "40",
                 "recovered": "6",
-                "death": "2"
-            },
-            {
-                "state": "Kaduna",
-                "confirmed": "35",
-                "recovered": "6",
-                "death": "1"
+                "death": "6"
             },
             {
                 "state": "Osun",
-                "confirmed": "34",
-                "recovered": "18",
+                "confirmed": "36",
+                "recovered": "22",
                 "death": "3"
             },
             {
                 "state": "Oyo",
-                "confirmed": "29",
+                "confirmed": "33",
                 "recovered": "9",
                 "death": "2"
             },
@@ -6643,16 +6643,16 @@
                 "death": "2"
             },
             {
+                "state": "Kwara",
+                "confirmed": "16",
+                "recovered": "2",
+                "death": "Não há dados"
+            },
+            {
                 "state": "Rios",
                 "confirmed": "14",
                 "recovered": "2",
                 "death": "2"
-            },
-            {
-                "state": "Kwara",
-                "confirmed": "14",
-                "recovered": "2",
-                "death": "Não há dados"
             },
             {
                 "state": "Ondo",
@@ -6661,21 +6661,45 @@
                 "death": "Não há dados"
             },
             {
+                "state": "Yobe",
+                "confirmed": "13",
+                "recovered": "Não há dados",
+                "death": "1"
+            },
+            {
+                "state": "Kebbi",
+                "confirmed": "12",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Zamfara",
+                "confirmed": "12",
+                "recovered": "Não há dados",
+                "death": "1"
+            },
+            {
                 "state": "Ekiti",
                 "confirmed": "11",
                 "recovered": "2",
                 "death": "1"
             },
             {
-                "state": "Zamfara",
+                "state": "Nasarawa",
                 "confirmed": "9",
                 "recovered": "Não há dados",
-                "death": "1"
+                "death": "Não há dados"
             },
             {
                 "state": "Taraba",
                 "confirmed": "8",
                 "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Enugu",
+                "confirmed": "8",
+                "recovered": "2",
                 "death": "Não há dados"
             },
             {
@@ -6685,25 +6709,31 @@
                 "death": "1"
             },
             {
+                "state": "Ebonyi",
+                "confirmed": "5",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Bayelsa",
+                "confirmed": "5",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
                 "state": "Adamawa",
                 "confirmed": "4",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
-                "state": "Enugu",
-                "confirmed": "4",
-                "recovered": "2",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Níger",
+                "state": "Planalto",
                 "confirmed": "3",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
-                "state": "Ebonyi",
+                "state": "Níger",
                 "confirmed": "3",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
@@ -6721,12 +6751,6 @@
                 "death": "Não há dados"
             },
             {
-                "state": "Kebbi",
-                "confirmed": "2",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
                 "state": "Anambra",
                 "confirmed": "1",
                 "recovered": "1",
@@ -6737,38 +6761,14 @@
                 "confirmed": "1",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
-            },
-            {
-                "state": "Planalto",
-                "confirmed": "1",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Yobe",
-                "confirmed": "1",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Bayelsa",
-                "confirmed": "1",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Nasarawa",
-                "confirmed": "1",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
             }
         ]
     },
     {
         "country": "Armênia",
-        "confirmed": "2.273",
-        "recovered": "1.010",
-        "death": "33",
+        "confirmed": "2.386",
+        "recovered": "1.035",
+        "death": "35",
         "states": [
             {
                 "state": "Yerevan",
@@ -6840,9 +6840,9 @@
     },
     {
         "country": "Iraque",
-        "confirmed": "2.219",
-        "recovered": "1.473",
-        "death": "95",
+        "confirmed": "2.296",
+        "recovered": "1.490",
+        "death": "97",
         "states": [
             {
                 "state": "Bagdá",
@@ -6954,7 +6954,7 @@
             },
             {
                 "state": "Al-Anbar",
-                "confirmed": "2",
+                "confirmed": "3",
                 "recovered": "2",
                 "death": "0"
             }
@@ -6969,28 +6969,28 @@
     },
     {
         "country": "Uzbequistão",
-        "confirmed": "2.118",
-        "recovered": "1.271",
-        "death": "9",
+        "confirmed": "2.136",
+        "recovered": "1.308",
+        "death": "10",
         "states": []
     },
     {
         "country": "Croácia",
-        "confirmed": "2.088",
-        "recovered": "1.463",
-        "death": "77",
+        "confirmed": "2.096",
+        "recovered": "1.489",
+        "death": "79",
         "states": [
             {
                 "state": "Espalatino-Dálmata",
-                "confirmed": "489",
+                "confirmed": "490",
                 "recovered": "177",
-                "death": "29"
+                "death": "30"
             },
             {
                 "state": "Zagreb",
-                "confirmed": "466",
-                "recovered": "250",
-                "death": "21"
+                "confirmed": "468",
+                "recovered": "369",
+                "death": "16"
             },
             {
                 "state": "Krapina-Zagorje",
@@ -7002,11 +7002,11 @@
                 "state": "Condado de Zagreb",
                 "confirmed": "130",
                 "recovered": "50",
-                "death": "0"
+                "death": "6"
             },
             {
                 "state": "Condado de Osijek-Barânia",
-                "confirmed": "120",
+                "confirmed": "123",
                 "recovered": "67",
                 "death": "8"
             },
@@ -7090,7 +7090,7 @@
             },
             {
                 "state": "Condado de Virovitica-Podravina",
-                "confirmed": "9",
+                "confirmed": "11",
                 "recovered": "1",
                 "death": "0"
             },
@@ -7117,22 +7117,22 @@
     },
     {
         "country": "Azerbaijão",
-        "confirmed": "1.894",
-        "recovered": "1.411",
+        "confirmed": "1.932",
+        "recovered": "1.441",
         "death": "25",
         "states": []
     },
     {
         "country": "Bósnia e Herzegovina",
-        "confirmed": "1.839",
-        "recovered": "779",
-        "death": "72",
+        "confirmed": "1.857",
+        "recovered": "825",
+        "death": "77",
         "states": []
     },
     {
         "country": "Islândia",
-        "confirmed": "1.798",
-        "recovered": "1.706",
+        "confirmed": "1.799",
+        "recovered": "1.717",
         "death": "10",
         "states": [
             {
@@ -7167,7 +7167,7 @@
             },
             {
                 "state": "Vesturland",
-                "confirmed": "42",
+                "confirmed": "43",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -7187,23 +7187,23 @@
     },
     {
         "country": "Estônia",
-        "confirmed": "1.699",
-        "recovered": "256",
-        "death": "53",
+        "confirmed": "1.700",
+        "recovered": "259",
+        "death": "55",
         "states": []
     },
     {
         "country": "Cuba",
-        "confirmed": "1.611",
-        "recovered": "765",
-        "death": "66",
+        "confirmed": "1.649",
+        "recovered": "827",
+        "death": "67",
         "states": []
     },
     {
         "country": "Bulgária",
-        "confirmed": "1.594",
-        "recovered": "287",
-        "death": "72",
+        "confirmed": "1.618",
+        "recovered": "308",
+        "death": "73",
         "states": []
     },
     {
@@ -7215,93 +7215,16 @@
     },
     {
         "country": "Macedônia (ARJM)",
-        "confirmed": "1.506",
-        "recovered": "852",
-        "death": "82",
-        "states": []
-    },
-    {
-        "country": "Eslovênia",
-        "confirmed": "1.439",
-        "recovered": "239",
-        "death": "94",
-        "states": []
-    },
-    {
-        "country": "Eslováquia",
-        "confirmed": "1.407",
-        "recovered": "608",
-        "death": "24",
-        "states": [
-            {
-                "state": "Bratislava",
-                "confirmed": "402",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Košice",
-                "confirmed": "159",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Žilina",
-                "confirmed": "154",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Trenčín",
-                "confirmed": "126",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Trnava",
-                "confirmed": "109",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Prešov",
-                "confirmed": "103",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Nitra",
-                "confirmed": "59",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Banská Bystrica",
-                "confirmed": "53",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            }
-        ]
-    },
-    {
-        "country": "Lituânia",
-        "confirmed": "1.406",
-        "recovered": "632",
-        "death": "46",
-        "states": []
-    },
-    {
-        "country": "Costa do Marfim",
-        "confirmed": "1.362",
-        "recovered": "622",
-        "death": "15",
+        "confirmed": "1.511",
+        "recovered": "8.945",
+        "death": "84",
         "states": []
     },
     {
         "country": "Bolívia",
-        "confirmed": "1.229",
-        "recovered": "134",
-        "death": "66",
+        "confirmed": "1.470",
+        "recovered": "159",
+        "death": "71",
         "states": [
             {
                 "state": "Santa Cruz",
@@ -7360,17 +7283,94 @@
         ]
     },
     {
-        "country": "Nova Zelândia",
-        "confirmed": "1.136",
-        "recovered": "1.266",
-        "death": "20",
+        "country": "Eslovênia",
+        "confirmed": "1.439",
+        "recovered": "241",
+        "death": "96",
+        "states": []
+    },
+    {
+        "country": "Lituânia",
+        "confirmed": "1.410",
+        "recovered": "635",
+        "death": "46",
+        "states": []
+    },
+    {
+        "country": "Eslováquia",
+        "confirmed": "1.408",
+        "recovered": "619",
+        "death": "24",
+        "states": [
+            {
+                "state": "Bratislava",
+                "confirmed": "402",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Košice",
+                "confirmed": "159",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Žilina",
+                "confirmed": "154",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Trenčín",
+                "confirmed": "126",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Trnava",
+                "confirmed": "109",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Prešov",
+                "confirmed": "103",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Nitra",
+                "confirmed": "59",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Banská Bystrica",
+                "confirmed": "53",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            }
+        ]
+    },
+    {
+        "country": "Costa do Marfim",
+        "confirmed": "1.398",
+        "recovered": "653",
+        "death": "17",
         "states": []
     },
     {
         "country": "Senegal",
-        "confirmed": "1.115",
-        "recovered": "368",
+        "confirmed": "1.182",
+        "recovered": "372",
         "death": "9",
+        "states": []
+    },
+    {
+        "country": "Nova Zelândia",
+        "confirmed": "1.136",
+        "recovered": "1.266",
+        "death": "20",
         "states": []
     },
     {
@@ -7383,7 +7383,7 @@
     {
         "country": "Hong Kong",
         "confirmed": "1.040",
-        "recovered": "864",
+        "recovered": "879",
         "death": "4",
         "states": []
     },
@@ -7402,7 +7402,7 @@
         "states": [
             {
                 "state": "Kebili",
-                "confirmed": "99",
+                "confirmed": "100",
                 "recovered": "Não há dados",
                 "death": "0"
             },
@@ -7414,7 +7414,7 @@
             },
             {
                 "state": "Ben Arous",
-                "confirmed": "94",
+                "confirmed": "96",
                 "recovered": "Não há dados",
                 "death": "4"
             },
@@ -7438,13 +7438,13 @@
             },
             {
                 "state": "Manouba",
-                "confirmed": "40",
+                "confirmed": "41",
                 "recovered": "Não há dados",
                 "death": "5"
             },
             {
                 "state": "Monastir",
-                "confirmed": "37",
+                "confirmed": "38",
                 "recovered": "Não há dados",
                 "death": "0"
             },
@@ -7492,7 +7492,7 @@
             },
             {
                 "state": "Cairuan",
-                "confirmed": "7",
+                "confirmed": "8",
                 "recovered": "Não há dados",
                 "death": "0"
             },
@@ -7542,37 +7542,37 @@
     },
     {
         "country": "Letônia",
-        "confirmed": "871",
+        "confirmed": "879",
         "recovered": "348",
         "death": "16",
         "states": []
     },
     {
         "country": "Chipre",
-        "confirmed": "864",
+        "confirmed": "872",
         "recovered": "296",
         "death": "20",
         "states": []
     },
     {
         "country": "Kosovo",
-        "confirmed": "823",
-        "recovered": "336",
+        "confirmed": "851",
+        "recovered": "381",
         "death": "22",
         "states": []
     },
     {
         "country": "Albânia",
-        "confirmed": "789",
-        "recovered": "519",
+        "confirmed": "795",
+        "recovered": "531",
         "death": "31",
         "states": []
     },
     {
         "country": "Quirguistão",
-        "confirmed": "769",
-        "recovered": "527",
-        "death": "8",
+        "confirmed": "795",
+        "recovered": "564",
+        "death": "10",
         "states": []
     },
     {
@@ -7584,40 +7584,41 @@
     },
     {
         "country": "Níger",
-        "confirmed": "736",
-        "recovered": "507",
-        "death": "35",
+        "confirmed": "750",
+        "recovered": "518",
+        "death": "36",
         "states": []
     },
     {
         "country": "Costa Rica",
-        "confirmed": "733",
-        "recovered": "372",
+        "confirmed": "739",
+        "recovered": "386",
         "death": "6",
         "states": []
     },
     {
         "country": "Líbano",
-        "confirmed": "733",
-        "recovered": "192",
+        "confirmed": "737",
+        "recovered": "200",
         "death": "25",
         "states": []
     },
     {
+        "country": "Somália",
+        "confirmed": "722",
+        "recovered": "44",
+        "death": "32",
+        "states": []
+    },
+    {
         "country": "Sri Lanka",
-        "confirmed": "702",
-        "recovered": "172",
+        "confirmed": "718",
+        "recovered": "184",
         "death": "7",
         "states": [
             {
                 "state": "Colombo",
-                "confirmed": "157",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Kulatra",
-                "confirmed": "65",
+                "confirmed": "154",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -7628,56 +7629,50 @@
                 "death": "Não há dados"
             },
             {
+                "state": "Kulatra",
+                "confirmed": "38",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
                 "state": "Distrito de Puttalam",
-                "confirmed": "41",
+                "confirmed": "35",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Distrito de Kurunegala",
-                "confirmed": "23",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Península de Jaffna",
-                "confirmed": "16",
+                "confirmed": "29",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Kandy",
-                "confirmed": "15",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Distrito de Ratnapura",
-                "confirmed": "8",
+                "confirmed": "21",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Distrito de Kegalle",
-                "confirmed": "8",
+                "confirmed": "10",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
-                "state": "Distrito de Badulla",
-                "confirmed": "3",
+                "state": "Península de Jaffna",
+                "confirmed": "7",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Distrito de Ratnapura",
+                "confirmed": "7",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
             {
                 "state": "Ampara",
-                "confirmed": "3",
-                "recovered": "Não há dados",
-                "death": "Não há dados"
-            },
-            {
-                "state": "Vavuniya",
-                "confirmed": "2",
+                "confirmed": "4",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
             },
@@ -7688,7 +7683,19 @@
                 "death": "Não há dados"
             },
             {
+                "state": "Distrito de Badulla",
+                "confirmed": "2",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
                 "state": "Batticaloa",
+                "confirmed": "1",
+                "recovered": "Não há dados",
+                "death": "Não há dados"
+            },
+            {
+                "state": "Vavuniya",
                 "confirmed": "1",
                 "recovered": "Não há dados",
                 "death": "Não há dados"
@@ -7702,6 +7709,13 @@
         ]
     },
     {
+        "country": "Guatemala",
+        "confirmed": "688",
+        "recovered": "72",
+        "death": "18",
+        "states": []
+    },
+    {
         "country": "República Democrática do Congo",
         "confirmed": "674",
         "recovered": "75",
@@ -7709,17 +7723,10 @@
         "states": []
     },
     {
-        "country": "Somália",
-        "confirmed": "671",
-        "recovered": "34",
-        "death": "31",
-        "states": []
-    },
-    {
         "country": "Burkina Faso",
-        "confirmed": "652",
-        "recovered": "535",
-        "death": "44",
+        "confirmed": "662",
+        "recovered": "540",
+        "death": "45",
         "states": []
     },
     {
@@ -7821,10 +7828,10 @@
         ]
     },
     {
-        "country": "Guatemala",
-        "confirmed": "644",
-        "recovered": "72",
-        "death": "16",
+        "country": "Mayotte",
+        "confirmed": "596",
+        "recovered": "Não há dados",
+        "death": "6",
         "states": []
     },
     {
@@ -7836,58 +7843,65 @@
     },
     {
         "country": "Geórgia",
-        "confirmed": "582",
-        "recovered": "207",
-        "death": "8",
+        "confirmed": "589",
+        "recovered": "221",
+        "death": "9",
         "states": []
     },
     {
         "country": "San Marino",
-        "confirmed": "580",
-        "recovered": "82",
+        "confirmed": "582",
+        "recovered": "86",
         "death": "41",
         "states": []
     },
     {
         "country": "Mali",
-        "confirmed": "544",
-        "recovered": "206",
-        "death": "26",
+        "confirmed": "563",
+        "recovered": "213",
+        "death": "27",
         "states": []
     },
     {
-        "country": "Mayotte",
-        "confirmed": "539",
-        "recovered": "Não há dados",
-        "death": "4",
+        "country": "Maldivas",
+        "confirmed": "527",
+        "recovered": "18",
+        "death": "1",
         "states": []
     },
     {
         "country": "Palestina",
-        "confirmed": "520",
+        "confirmed": "522",
         "recovered": "77",
         "death": "2",
         "states": []
     },
     {
-        "country": "Maldivas",
-        "confirmed": "519",
-        "recovered": "18",
-        "death": "1",
+        "country": "El Salvador",
+        "confirmed": "490",
+        "recovered": "154",
+        "death": "11",
         "states": []
     },
     {
         "country": "Tanzânia",
         "confirmed": "480",
         "recovered": "167",
-        "death": "17",
+        "death": "18",
         "states": []
     },
     {
         "country": "Malta",
-        "confirmed": "468",
-        "recovered": "379",
+        "confirmed": "477",
+        "recovered": "392",
         "death": "4",
+        "states": []
+    },
+    {
+        "country": "Quênia",
+        "confirmed": "465",
+        "recovered": "167",
+        "death": "24",
         "states": []
     },
     {
@@ -7905,24 +7919,17 @@
         "states": []
     },
     {
-        "country": "El Salvador",
-        "confirmed": "446",
-        "recovered": "141",
-        "death": "11",
-        "states": []
-    },
-    {
-        "country": "Quênia",
-        "confirmed": "435",
-        "recovered": "150",
-        "death": "22",
-        "states": []
-    },
-    {
         "country": "Taiwan",
         "confirmed": "432",
         "recovered": "324",
         "death": "6",
+        "states": []
+    },
+    {
+        "country": "Paraguai",
+        "confirmed": "370",
+        "recovered": "119",
+        "death": "10",
         "states": []
     },
     {
@@ -8073,65 +8080,58 @@
         "states": []
     },
     {
-        "country": "Paraguai",
-        "confirmed": "333",
-        "recovered": "115",
-        "death": "10",
-        "states": []
-    },
-    {
         "country": "Ilhas Maurício",
         "confirmed": "332",
-        "recovered": "312",
+        "recovered": "315",
         "death": "10",
         "states": []
     },
     {
         "country": "Montenegro",
         "confirmed": "322",
-        "recovered": "245",
+        "recovered": "249",
         "death": "8",
         "states": [
             {
                 "state": "Podgorica",
                 "confirmed": "164",
-                "recovered": "119",
-                "death": "5"
+                "recovered": "121",
+                "death": "6"
             },
             {
                 "state": "Tuzi Urban municipality",
                 "confirmed": "37",
-                "recovered": "34",
+                "recovered": "36",
                 "death": "0"
             },
             {
                 "state": "Nikšić",
                 "confirmed": "34",
-                "recovered": "30",
+                "recovered": "31",
                 "death": "0"
             },
             {
                 "state": "Bar",
                 "confirmed": "23",
-                "recovered": "14",
+                "recovered": "15",
                 "death": "0"
             },
             {
                 "state": "Ulcinj",
                 "confirmed": "22",
-                "recovered": "8",
+                "recovered": "13",
                 "death": "0"
             },
             {
                 "state": "Município de Plav",
                 "confirmed": "7",
-                "recovered": "0",
+                "recovered": "3",
                 "death": "1"
             },
             {
                 "state": "Budva",
                 "confirmed": "7",
-                "recovered": "5",
+                "recovered": "7",
                 "death": "0"
             },
             {
@@ -8174,9 +8174,9 @@
     },
     {
         "country": "Ilha de Man",
-        "confirmed": "320",
+        "confirmed": "321",
         "recovered": "271",
-        "death": "22",
+        "death": "23",
         "states": []
     },
     {
@@ -8195,22 +8195,22 @@
     },
     {
         "country": "Vietnã",
-        "confirmed": "270",
+        "confirmed": "271",
         "recovered": "219",
         "death": "0",
         "states": []
     },
     {
         "country": "Guiné-Bissau",
-        "confirmed": "257",
+        "confirmed": "260",
         "recovered": "19",
         "death": "1",
         "states": []
     },
     {
         "country": "Ruanda",
-        "confirmed": "255",
-        "recovered": "120",
+        "confirmed": "259",
+        "recovered": "124",
         "death": "0",
         "states": []
     },
@@ -8230,30 +8230,37 @@
     },
     {
         "country": "Martinica",
-        "confirmed": "179",
+        "confirmed": "180",
         "recovered": "Não há dados",
         "death": "14",
         "states": []
     },
     {
         "country": "Serra Leoa",
-        "confirmed": "155",
-        "recovered": "21",
+        "confirmed": "166",
+        "recovered": "29",
         "death": "8",
         "states": []
     },
     {
+        "country": "Cabo Verde",
+        "confirmed": "165",
+        "recovered": "33",
+        "death": "2",
+        "states": []
+    },
+    {
         "country": "Libéria",
-        "confirmed": "154",
-        "recovered": "48",
+        "confirmed": "155",
+        "recovered": "58",
         "death": "18",
         "states": []
     },
     {
-        "country": "Cabo Verde",
-        "confirmed": "152",
-        "recovered": "18",
-        "death": "2",
+        "country": "Myanmar",
+        "confirmed": "155",
+        "recovered": "43",
+        "death": "6",
         "states": []
     },
     {
@@ -8264,10 +8271,10 @@
         "states": []
     },
     {
-        "country": "Myanmar",
-        "confirmed": "151",
-        "recovered": "37",
-        "death": "6",
+        "country": "Madagascar",
+        "confirmed": "149",
+        "recovered": "98",
+        "death": "0",
         "states": []
     },
     {
@@ -8280,21 +8287,14 @@
     {
         "country": "Brunei",
         "confirmed": "138",
-        "recovered": "126",
+        "recovered": "128",
         "death": "1",
         "states": []
     },
     {
-        "country": "Madagascar",
-        "confirmed": "135",
-        "recovered": "97",
-        "death": "0",
-        "states": []
-    },
-    {
         "country": "Etiópia",
-        "confirmed": "133",
-        "recovered": "69",
+        "confirmed": "135",
+        "recovered": "75",
         "death": "3",
         "states": []
     },
@@ -8307,9 +8307,16 @@
     },
     {
         "country": "Togo",
-        "confirmed": "123",
-        "recovered": "66",
+        "confirmed": "124",
+        "recovered": "67",
         "death": "9",
+        "states": []
+    },
+    {
+        "country": "Zâmbia",
+        "confirmed": "124",
+        "recovered": "78",
+        "death": "3",
         "states": []
     },
     {
@@ -8399,13 +8406,6 @@
         ]
     },
     {
-        "country": "Zâmbia",
-        "confirmed": "119",
-        "recovered": "75",
-        "death": "3",
-        "states": []
-    },
-    {
         "country": "Chade",
         "confirmed": "117",
         "recovered": "39",
@@ -8427,17 +8427,17 @@
         "states": []
     },
     {
-        "country": "Norte do Chipre",
-        "confirmed": "108",
-        "recovered": "52",
-        "death": "3",
+        "country": "Suazilândia",
+        "confirmed": "112",
+        "recovered": "12",
+        "death": "1",
         "states": []
     },
     {
-        "country": "Suazilândia",
+        "country": "Norte do Chipre",
         "confirmed": "108",
-        "recovered": "12",
-        "death": "1",
+        "recovered": "103",
+        "death": "4",
         "states": []
     },
     {
@@ -8505,8 +8505,8 @@
     },
     {
         "country": "Moçambique",
-        "confirmed": "79",
-        "recovered": "18",
+        "confirmed": "80",
+        "recovered": "19",
         "death": "0",
         "states": []
     },
@@ -8515,6 +8515,13 @@
         "confirmed": "76",
         "recovered": "44",
         "death": "13",
+        "states": []
+    },
+    {
+        "country": "Nepal",
+        "confirmed": "75",
+        "recovered": "16",
+        "death": "0",
         "states": []
     },
     {
@@ -8539,13 +8546,6 @@
         "states": []
     },
     {
-        "country": "Nepal",
-        "confirmed": "59",
-        "recovered": "16",
-        "death": "0",
-        "states": []
-    },
-    {
         "country": "Polinésia Francesa",
         "confirmed": "58",
         "recovered": "43",
@@ -8553,16 +8553,16 @@
         "states": []
     },
     {
-        "country": "Macau",
-        "confirmed": "45",
-        "recovered": "38",
+        "country": "Sudão do Sul",
+        "confirmed": "46",
+        "recovered": "0",
         "death": "0",
         "states": []
     },
     {
-        "country": "Sudão do Sul",
+        "country": "Macau",
         "confirmed": "45",
-        "recovered": "0",
+        "recovered": "38",
         "death": "0",
         "states": []
     },
@@ -8581,6 +8581,13 @@
         "states": []
     },
     {
+        "country": "Malawi",
+        "confirmed": "39",
+        "recovered": "9",
+        "death": "3",
+        "states": []
+    },
+    {
         "country": "Mongólia",
         "confirmed": "39",
         "recovered": "10",
@@ -8591,13 +8598,6 @@
         "country": "Saint-Martin",
         "confirmed": "38",
         "recovered": "Não há dados",
-        "death": "3",
-        "states": []
-    },
-    {
-        "country": "Malawi",
-        "confirmed": "38",
-        "recovered": "9",
         "death": "3",
         "states": []
     },
@@ -8637,10 +8637,24 @@
         "states": []
     },
     {
+        "country": "São Tomé e Príncipe",
+        "confirmed": "23",
+        "recovered": "Não há dados",
+        "death": "3",
+        "states": []
+    },
+    {
         "country": "Granada",
         "confirmed": "21",
         "recovered": "13",
         "death": "0",
+        "states": []
+    },
+    {
+        "country": "Burundi",
+        "confirmed": "19",
+        "recovered": "7",
+        "death": "1",
         "states": []
     },
     {
@@ -8714,20 +8728,6 @@
         "states": []
     },
     {
-        "country": "São Tomé e Príncipe",
-        "confirmed": "16",
-        "recovered": "Não há dados",
-        "death": "1",
-        "states": []
-    },
-    {
-        "country": "Burundi",
-        "confirmed": "15",
-        "recovered": "7",
-        "death": "1",
-        "states": []
-    },
-    {
         "country": "São Cristóvão e Névis",
         "confirmed": "15",
         "recovered": "Não há dados",
@@ -8793,7 +8793,7 @@
     {
         "country": "Suriname",
         "confirmed": "10",
-        "recovered": "8",
+        "recovered": "9",
         "death": "1",
         "states": []
     },

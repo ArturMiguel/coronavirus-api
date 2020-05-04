@@ -4,7 +4,9 @@ const fs = require('fs')
 const uri = 'https://news.google.com/covid19/map?hl=pt-BR&gl=BR&ceid=BR:pt-419'
 
 module.exports = async () => {
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({
+        args: ['--no-sandbox'] // glitch.com fix
+    })
     const page = await browser.newPage()
 
     // Blocks some resources to optimize page loading
