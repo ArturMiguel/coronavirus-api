@@ -25,7 +25,7 @@ module.exports = async () => {
         const countries = await page.$$eval('table[class="pH8O4c"] tbody tr', (rows) => {
             return rows.map((row) => {
                 const tds = row.querySelectorAll('td')
-                const spans = row.querySelectorAll('th div span')
+                const spans = row.querySelectorAll('th div div')
                 const countryName = spans[spans.length - 1].textContent.replace('—', 'Não há dados')
                 return {
                     country: countryName,
@@ -55,7 +55,7 @@ module.exports = async () => {
                 country.states = await page.$$eval('table[class="pH8O4c"] tbody tr', (rows, country) => {
                     return rows.map((row) => {
                         const tds = row.querySelectorAll('td')
-                        const spans = row.querySelectorAll('th div span')
+                        const spans = row.querySelectorAll('th div div')
                         const stateName = spans[spans.length - 1].textContent.replace('—', 'Não há dados')
                         return {
                             state: stateName,
