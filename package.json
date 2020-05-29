@@ -15,10 +15,9 @@
         "url": "git+https://github.com/ArturMiguel/coronavirus-api.git"
     },
     "keywords": [
-        "API",
-        "Coronavirus",
-        "Covid-19",
-        "Scraping"
+        "coronavirus",
+        "covid-19",
+        "coronavirus-api"
     ],
     "author": "ArturMiguel",
     "license": "MIT",

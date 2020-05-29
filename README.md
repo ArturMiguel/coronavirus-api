@@ -1,10 +1,6 @@
-# [ DEPRECATED ]
-
-A página onde os dados eram coletados sofreu mudanças que tornaram o código obsoleto. Para fins de estudo, a API será mantida com dados da última atualização (19/05/2020).
-
 # coronavirus-api
 
-API para consulta de dados sobre o coronavírus (COVID-19) em países e estados.
+API para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo.
 
 A documentação completa da coronavirus-api pode ser acessada [aqui](https://coronavirus-api.glitch.me/api/v1/docs).
 

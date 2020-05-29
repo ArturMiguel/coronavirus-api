@@ -8,6 +8,7 @@ module.exports = async () => {
         args: ['--no-sandbox'] // glitch.com fix
     })
     const page = await browser.newPage()
+    const aux = await browser.newPage()
 
     // Blocks some resources to optimize page loading
     await page.setRequestInterception(true)
@@ -26,29 +27,23 @@ module.exports = async () => {
             return rows.map((row) => {
                 const tds = row.querySelectorAll('td')
                 const spans = row.querySelectorAll('th div div')
-                const countryName = spans[spans.length - 1].textContent.replace('—', 'Não há dados')
+                const countryName = spans[spans.length - 1].textContent.replace('—', 'Não há dados')   
                 return {
+                    dataId: row.getAttribute('data-id'),
                     country: countryName,
                     confirmed: tds[0].textContent.replace('—', 'Não há dados'),
                     recovered: tds[2].textContent.replace('—', 'Não há dados'),
-                    death: tds[3].textContent.replace('—', 'Não há dados'),
+                    death: tds[3].textContent.replace('—', 'Não há dados')
                 }
             })
         })
 
         for (let country of countries) {
             if (country.country !== 'Global') {
-                const uriPart = await page.$eval(`div[class="GycLre"] div[aria-label="${country.country}"]`, d => d.getAttribute('data-value'))
-                let stateUri = ''
-            
-                if (uriPart.includes('/g/')) { // e.g. /g/121p5z1h
-                    stateUri = `https://news.google.com/covid19/map?hl=pt-BR&gl=BR&ceid=BR%3Apt-419&mid=%2Fg%2F${uriPart}`.replace('/g/', '')
-                } else if (uriPart.includes('/m/')) { // e.g. /m/015fr
-                    stateUri = `https://news.google.com/covid19/map?hl=pt-BR&gl=BR&ceid=BR%3Apt-419&mid=%2Fm%2F${uriPart}`.replace('/m/', '')
-                }
-
-                await page.goto(stateUri)
-
+                const dataId = country.dataId
+                const uri = `https://news.google.com/covid19/map?hl=pt-BR&gl=BR&ceid=BR%3Apt-419&mid=${dataId}`
+                
+                await page.goto(uri)
                 const tableHover = await page.$('div[jsaction="pSI0Dc:mMUZad;rcuQ6b:npT2md;c0v8t:gmfnwb; mouseover:gmfnwb; touchstart:gmfnwb;"]')
                 if (tableHover !== null) await tableHover.hover()
 
@@ -66,6 +61,7 @@ module.exports = async () => {
                     }).filter(state => state.state !== 'Global' && country.country !== state.state) // Removes "Global" data and country as state
                 }, country)
             }
+            delete country.dataId
         }
 
         fs.writeFileSync(`${__dirname}/coronavirus-data.json`, JSON.stringify(countries, null, 4))
