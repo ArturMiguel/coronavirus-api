@@ -5,7 +5,7 @@ const uri = 'https://news.google.com/covid19/map?hl=pt-BR&gl=BR&ceid=BR:pt-419'
 
 module.exports = async () => {
     const browser = await puppeteer.launch({
-        args: ['--no-sandbox'] // glitch.com fix
+        args: ['--no-sandbox']
     })
     const page = await browser.newPage()
 
