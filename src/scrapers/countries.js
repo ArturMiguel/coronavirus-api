@@ -68,7 +68,6 @@ module.exports = async () => {
             }
             delete country.dataId
         }
-
         fs.writeFileSync(`${__dirname}/coronavirus-data.json`, JSON.stringify(countries, null, 4))
     } catch(err) {
         console.log('Erro ao recuperar os últimos dados!\n', new Error(err).message)

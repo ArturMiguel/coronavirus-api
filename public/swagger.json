@@ -196,6 +196,6 @@
         "https",
         "http"
     ],
-    "host": "coronavirus-api.glitch.me",
+    "host": "coronavirus-dev.herokuapp.com",
     "basePath": "/"
 }

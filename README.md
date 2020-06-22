@@ -10,13 +10,13 @@ Os dados utilizados pela API são "raspados" da página do *[Google News](https:
 
 A documentação completa dos *endpoints* pode ser acessada [aqui](https://coronavirus-api.glitch.me/api/v1/docs).
 
-## Instalação
+## Execução
 
-1) Crie um *fork* e clone o projeto para sua máquina.
-2) No diretório do projeto instale as dependências: `npm install`.
-3) Utilize o comando `npm run start` para iniciar a aplicação.
+1) Faça o download do projeto.
+2) Instale as dependências: `npm install`.
+3) Utilize `npm run start` para iniciar a aplicação.
 
-## Fontes
+## Inspirações
 
 > https://news.google.com/covid19/map?hl=pt-BR&gl=BR&ceid=BR:pt-419
 
