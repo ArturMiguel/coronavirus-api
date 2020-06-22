@@ -8,7 +8,7 @@ Os dados utilizados pela API são "raspados" da página do *[Google News](https:
 
 ## Documentação
 
-A documentação completa dos *endpoints* pode ser acessada [aqui](https://coronavirus-api.glitch.me/api/v1/docs).
+A documentação completa dos *endpoints* pode ser acessada [aqui](https://coronavirus-dev.herokuapp.com/api/v1/docs).
 
 ## Execução
 
