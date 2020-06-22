@@ -1,7 +1,7 @@
 {
     "name": "coronavirus-api",
     "version": "1.0.0",
-    "description": "API para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo.",
+    "description": "API REST para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo.",
     "main": "./src/server.js",
     "scripts": {
         "start": "node ."

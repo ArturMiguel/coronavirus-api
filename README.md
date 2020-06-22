@@ -1,6 +1,6 @@
 # coronavirus-api
 
-API para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo.
+API REST para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo.
 
 #### Sobre dos dados
 
@@ -12,9 +12,13 @@ A documentação completa dos *endpoints* pode ser acessada [aqui](https://coron
 
 ## Execução
 
+> Requer [Node.js](https://nodejs.org/en/) instalado.
+
 1) Faça o download do projeto.
 2) Instale as dependências: `npm install`.
 3) Utilize `npm run start` para iniciar a aplicação.
+
+Caso deseje hospedar na Heroku, adicione [esse](https://elements.heroku.com/buildpacks/jontewks/puppeteer-heroku-buildpack) buildpack do Puppeteer.
 
 ## Inspirações
 

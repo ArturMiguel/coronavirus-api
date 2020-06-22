@@ -23,10 +23,8 @@ class AppController {
     }
 
     async update() {
-        console.log('Updating data...')
         await scraper()
         setInterval(async () => {
-            console.log('Updating data...')
             await scraper()
         }, 1000 * 60 * 60 * 4)
     }
