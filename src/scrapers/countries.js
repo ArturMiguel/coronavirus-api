@@ -66,6 +66,7 @@ module.exports = async () => {
                     }).filter(state => state.state !== 'Global' && country.country !== state.state) // Removes "Global" data and country as state
                 }, country)
             }
+            console.log(country)
             delete country.dataId
         }
         fs.writeFileSync(`${__dirname}/coronavirus-data.json`, JSON.stringify(countries, null, 4))
