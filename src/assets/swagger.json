@@ -7,20 +7,20 @@
             "name": "Licença MIT",
             "url": "https://github.com/ArturMiguel/coronavirus-api/blob/master/LICENSE"
         },
-        "description": "API para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo. Os dados são coletados do Google News a cada 4 horas."
+        "description": "API para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo."
     },
     "tags": [
         {
             "name": "Global",
-            "description": "(Dados em todo o mundo)"
+            "description": "(Número de casos em todo o mundo)"
         },
         {
             "name": "Countries",
-            "description": "(Dados em países e estados)"
+            "description": "(Número de casos em países e estados)"
         },
         {
             "name": "States",
-            "description": "(Dados em estados)"
+            "description": "(Número de casos em estados)"
         }
     ],
     "paths": {
@@ -29,8 +29,8 @@
                 "tags": [
                     "Global"
                 ],
-                "summary": "Retorna dados do coronavírus em todo o mundo.",
-                "description": "Retorna dados globais do coronavírus. Os dados incluem quantidade de casos confirmados, recuperados e óbitos.",
+                "summary": "Retorna o número de casos do coronavírus em todo o mundo.",
+                "description": "Número de casos confirmados, recuperados e óbitos.",
                 "responses": {
                     "200": {
                         "description": "ok",
@@ -49,8 +49,8 @@
                 "tags": [
                     "Countries"
                 ],
-                "summary": "Retorna dados do coronavírus em países e estados.",
-                "description": "Retorna dados do coronavírus em todos os países e seus estados. Os dados incluem quantidade de casos confirmados, recuperados e óbitos.",
+                "summary": "Retorna o número de casos do coronavírus em países e estados.",
+                "description": "Número de casos confirmados, recuperados e óbitos.",
                 "responses": {
                     "200": {
                         "description": "ok",
@@ -69,8 +69,8 @@
                 "tags": [
                     "Countries"
                 ],
-                "summary": "Retorna dados do coronavírus em um país específico.",
-                "description": "Busca um país pelo nome e retorna seus dados do coronavírus. Os dados incluem quantidade de casos confirmados, recuperados e óbitos.",
+                "summary": "Retorna o número de casos do coronavírus em um país específico.",
+                "description": "Busca um país pelo nome e retorna o número de casos confirmados, recuperados e óbitos.",
                 "produces": [
                     "application/json"
                 ],
@@ -101,8 +101,8 @@
                 "tags": [
                     "States"
                 ],
-                "summary": "Retorna dados do coronavírus em um estado específico.",
-                "description": "Busca um estado pelo nome e retorna seus dados do coronavírus. Os dados incluem quantidade de casos confirmados, recuperados e óbitos.",
+                "summary": "Retorna o número de casos do coronavírus em um estado específico.",
+                "description": "Busca um estado pelo nome e retorna o número de casos confirmados, recuperados e óbitos.",
                 "produces": [
                     "application/json"
                 ],
@@ -133,7 +133,7 @@
         "Global": {
             "type": "object",
             "properties": {
-                "country": {
+                "name": {
                     "type": "string"
                 },
                 "confirmed": {
@@ -150,7 +150,7 @@
         "Country": {
             "type": "object",
             "properties": {
-                "country": {
+                "name": {
                     "type": "string"
                 },
                 "confirmed": {
@@ -173,7 +173,7 @@
         "State": {
             "type": "object",
             "properties": {
-                "state": {
+                "name": {
                     "type": "string"
                 },
                 "confirmed": {
