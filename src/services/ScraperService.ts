@@ -6,6 +6,7 @@ import { $log } from "@tsed/logger";
 import { COUNTRY_REPOSITORY } from "src/datasources/repositories/CountryRepository";
 import { STATE_REPOSITORY } from "src/datasources/repositories/StateRepository";
 import { StateEntity } from "src/datasources/entities/StateEntity";
+import cron from "node-cron";
 
 @Service()
 export class ScraperService {
@@ -110,5 +111,12 @@ export class ScraperService {
         } finally {
             await browser.close();
         }
+    }
+
+    schedule(cronExpression: string) {
+        $log.info(`[Scraper] Scheduler registred with expression ${cronExpression}`);
+        cron.schedule(cronExpression, () => {
+            $log.info("[Scraper] Scheduler started");
+        })
     }
 }

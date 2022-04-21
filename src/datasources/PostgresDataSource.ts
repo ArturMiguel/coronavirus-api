@@ -11,6 +11,7 @@ export const PostgresDataSource = new DataSource({
     username: process.env.TYPEORM_USERNAME,
     password: process.env.TYPEORM_PASSWORD,
     entities: [`${__dirname}/entities/*.{js,ts}`],
+    migrations: [`${__dirname}/migrations/*.{js,ts}`],
     ssl: {
         rejectUnauthorized: false
     },
@@ -23,6 +24,7 @@ registerProvider<DataSource>({
     deps: [Logger],
     async useAsyncFactory(logger: Logger) {
         await PostgresDataSource.initialize();
+        await PostgresDataSource.runMigrations();
 
         logger.info("Connected with typeorm to database: PostgreSQL");
 

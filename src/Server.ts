@@ -7,8 +7,6 @@ import methodOverride from "method-override";
 import cors from "cors";
 import "@tsed/swagger";
 import { config } from "./config";
-import { POSTGRES_DATASOURCE } from "./datasources/PostgresDataSource";
-import { DataSource } from "typeorm";
 
 @Configuration({
     ...config,
@@ -46,7 +44,4 @@ export class Server {
 
     @Configuration()
     protected settings: Configuration;
-
-    @Inject(POSTGRES_DATASOURCE)
-    protected postgresDataSource: DataSource;
 }
