@@ -1,11 +1,11 @@
 import { Inject, Service } from "@tsed/di";
 import puppeteer from "puppeteer";
-import { ICountry } from "src/types/ICountry";
-import { IState } from "src/types/IState";
+import { ICountry } from "../types/ICountry";
+import { IState } from "../types/IState";
 import { $log } from "@tsed/logger";
-import { COUNTRY_REPOSITORY } from "src/datasources/repositories/CountryRepository";
-import { STATE_REPOSITORY } from "src/datasources/repositories/StateRepository";
-import { StateEntity } from "src/datasources/entities/StateEntity";
+import { COUNTRY_REPOSITORY } from "../datasources/repositories/CountryRepository";
+import { STATE_REPOSITORY } from "../datasources/repositories/StateRepository";
+import { StateEntity } from "../datasources/entities/StateEntity";
 import cron from "node-cron";
 
 @Service()
