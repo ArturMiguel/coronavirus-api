@@ -30,7 +30,7 @@ export class CountryController {
             .leftJoinAndSelect("country.states", "state")
             .where("country.id = :id", { id })
             .orderBy("state.name", "ASC")
-            .getOne();
+            .getOne().catch(() => {});
         if (!country) throw new NotFound("Country not found!");
         return country;
     }
