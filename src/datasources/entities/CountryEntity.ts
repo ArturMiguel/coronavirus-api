@@ -1,10 +1,13 @@
-import { BeforeUpdate, Column, CreateDateColumn, Entity, OneToMany, PrimaryColumn, UpdateDateColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, OneToMany, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { StateEntity } from "./StateEntity";
 
 @Entity({ name: "countries"})
 export class CountryEntity {
-    @PrimaryColumn({ type: "varchar", length: 20 })
+    @PrimaryGeneratedColumn("uuid")
     id: string;
+
+    @Column({ type: "varchar", nullable: false, length: 20 })
+    googleId: string;
 
     @Column({ type: "varchar", nullable: false, length: 255 })
     name: string;

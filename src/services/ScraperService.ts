@@ -43,13 +43,13 @@ export class ScraperService {
             // Hover table div to trigger data fetch
             await page.hover('div[jsaction="pSI0Dc:mMUZad;c6HY:uUug7c;rcuQ6b:npT2md;c0v8t:gmfnwb; mouseover:gmfnwb; touchstart:gmfnwb;"]');
 
-            const countries: ICountry[] = await page.$$eval('table[class="pH8O4c"] tbody tr', (rows) => {
+            let countries: ICountry[] = await page.$$eval('table[class="pH8O4c"] tbody tr', (rows) => {
                 return rows.map((row) => {
                     const tds = row.querySelectorAll("td") as any;
                     const spans = row.querySelectorAll("th div div") as any;
 
                     return {
-                        id: row.getAttribute("data-id") as string,
+                        googleId: row.getAttribute("data-id") as string,
                         name: spans[spans.length - 1].textContent as string,
                         confirmed: tds[0].textContent as string,
                         death: tds[4].textContent as string
@@ -61,7 +61,7 @@ export class ScraperService {
 
             for await (let country of countries) {
                 $log.info(`Fetching states of ${country.name}`);
-                const uri = `https://news.google.com/covid19/map?hl=pt-BR&gl=BR&ceid=BR%3Apt-419&mid=${country.id}`;
+                const uri = `https://news.google.com/covid19/map?hl=pt-BR&gl=BR&ceid=BR%3Apt-419&mid=${country.googleId}`;
 
                 await page.goto(uri, {
                     waitUntil: "load",
@@ -75,8 +75,7 @@ export class ScraperService {
                         const tds = row.querySelectorAll("td") as any;
                         const spans = row.querySelectorAll("th div div") as any;
                         return {
-                            id: row.getAttribute("data-id") as string,
-                            country_id: country.id,
+                            googleId: row.getAttribute("data-id") as string,
                             name: spans[spans.length - 1].textContent as string,
                             confirmed: tds[0].textContent as string,
                             death: tds[4].textContent as string,
@@ -90,21 +89,22 @@ export class ScraperService {
                     const stateEntities = country.states?.map(state => this.stateRepository.create(state)) as StateEntity[];
                     delete country.states;
                     const countryEntity = this.countryRepository.create(country);
-                    await this.countryRepository.save(countryEntity);
+                    const savedCountry = await this.countryRepository.save(countryEntity);
+                    stateEntities.forEach(state => state.country = savedCountry);
                     await this.stateRepository.save(stateEntities);
                 } catch (error) {
                     $log.error({
                         event: "DATABASE_SYNC_ERROR",
                         error: error.message,
-                        country 
+                        country
                     })
                 }
             }
 
             return true;
         } catch (error) {
-            $log.error({ 
-                event: "SCRAPER_ERROR", 
+            $log.error({
+                event: "SCRAPER_ERROR",
                 error: error.message
             });
             throw error;

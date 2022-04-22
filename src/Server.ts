@@ -7,6 +7,8 @@ import methodOverride from "method-override";
 import cors from "cors";
 import "@tsed/swagger";
 import { config } from "./config";
+import { readFileSync } from "fs";
+const pkg = JSON.parse(readFileSync("./package.json", { encoding: "utf8" }));
 
 @Configuration({
     ...config,
@@ -17,12 +19,6 @@ import { config } from "./config";
         "/": `${__dirname}/controllers/pages/*.{js,ts}`
     },
     componentsScan: [`${__dirname}/services/*.{js,ts}`],
-    swagger: [
-        {
-            path: "/docs",
-            specVersion: "3.0.1"
-        }
-    ],
     middlewares: [
         cors(),
         methodOverride(),

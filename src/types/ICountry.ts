@@ -1,7 +1,8 @@
 import { IState } from "./IState";
 
 export interface ICountry {
-    id: string;
+    id?: string;
+    googleId: string;
     name: string;
     confirmed: string;
     death: string;

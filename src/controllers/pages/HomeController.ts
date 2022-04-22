@@ -6,7 +6,7 @@ import { Hidden, Get, Returns } from "@tsed/schema";
 
 @Hidden()
 @Controller("/")
-export class SwaggerController {
+export class HomeController {
     @Constant("swagger")
     private swagger: SwaggerSettings[];
 

@@ -1,10 +1,13 @@
-import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryColumn, UpdateDateColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { CountryEntity } from "./CountryEntity";
 
 @Entity({ name: "states" })
 export class StateEntity {
-    @PrimaryColumn({ type: "varchar", length: 20 })
+    @PrimaryGeneratedColumn("uuid")
     id: string;
+
+    @Column({ type: "varchar", nullable: false, length: 20 })
+    googleId: string;
 
     @Column({ type: "varchar", nullable: false, length: 255 })
     name: string;
@@ -16,11 +19,11 @@ export class StateEntity {
     death: string;
 
     @ManyToOne(() => CountryEntity, countryEntity => countryEntity.states, { onDelete: "CASCADE" })
-    @JoinColumn({ name: "country_id" })
+    @JoinColumn({ name: "countryId" })
     country: CountryEntity;
 
     @Column()
-    country_id: string;
+    countryId: string;
 
     @CreateDateColumn({ type: "timestamptz" })
     createdAt: Date;

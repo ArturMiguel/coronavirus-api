@@ -1,7 +1,8 @@
 export interface IState {
-    id: string;
+    id?: string;
+    googleId: string;
     name: string;
     confirmed: string;
     death: string;
-    country_id: string;
+    countryId: string;
 }
