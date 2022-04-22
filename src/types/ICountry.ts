@@ -6,5 +6,5 @@ export interface ICountry {
     name: string;
     confirmed: string;
     death: string;
-    states?: IState[];
+    states: IState[];
 }

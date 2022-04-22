@@ -6,7 +6,7 @@ export class CountryEntity {
     @PrimaryGeneratedColumn("uuid")
     id: string;
 
-    @Column({ type: "varchar", nullable: false, length: 20 })
+    @Column({ type: "varchar", nullable: false, length: 20, unique: true })
     googleId: string;
 
     @Column({ type: "varchar", nullable: false, length: 255 })

@@ -3,7 +3,7 @@ import { readFileSync } from "fs";
 
 const pkg = JSON.parse(readFileSync("./package.json", { encoding: "utf8" }));
 
-const swagger: SwaggerSettings[] = [
+export default <SwaggerSettings[]>[
     {
         path: "/docs",
         specVersion: "3.0.1",
@@ -15,10 +15,8 @@ const swagger: SwaggerSettings[] = [
                     name: "MIT License",
                     url: "https://github.com/ArturMiguel/coronavirus-api/blob/master/LICENSE"
                 },
-                "description": "API pública para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo."
+                description: "API pública para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo."
             }
         }
     }
 ]
-
-export default swagger;

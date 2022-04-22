@@ -52,7 +52,8 @@ export class ScraperService {
                         googleId: row.getAttribute("data-id") as string,
                         name: spans[spans.length - 1].textContent as string,
                         confirmed: tds[0].textContent as string,
-                        death: tds[4].textContent as string
+                        death: tds[4].textContent as string,
+                        states: []
                     }
                 })
             })
@@ -84,14 +85,23 @@ export class ScraperService {
                 }, country as any)
             }
 
+            const upsertOptions = {
+                conflictPaths: ["googleId"]
+            }
+
             for await (let country of countries) {
+                const now = new Date().toISOString()
+
                 try {
-                    const stateEntities = country.states?.map(state => this.stateRepository.create(state)) as StateEntity[];
-                    delete country.states;
-                    const countryEntity = this.countryRepository.create(country);
-                    const savedCountry = await this.countryRepository.save(countryEntity);
-                    stateEntities.forEach(state => state.country = savedCountry);
-                    await this.stateRepository.save(stateEntities);
+                    const savedCountry = await this.countryRepository.upsert({
+                        ...country,
+                        updatedAt: now
+                    }, upsertOptions);
+                    await this.stateRepository.upsert(country.states.map(state => this.stateRepository.create({
+                        ...state,
+                        countryId: savedCountry.raw[0].id,
+                        updatedAt: now
+                    })), upsertOptions);
                 } catch (error) {
                     $log.error({
                         event: "DATABASE_SYNC_ERROR",
