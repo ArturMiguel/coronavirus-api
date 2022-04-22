@@ -7,6 +7,7 @@ export default <SwaggerSettings[]>[
     {
         path: "/docs",
         specVersion: "3.0.1",
+        outFile: "swagger.json",
         spec: {
             info: {
                 title: "Documentação Coronavírus API",
@@ -17,6 +18,7 @@ export default <SwaggerSettings[]>[
                 },
                 description: "API pública para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo."
             }
-        }
+        },
+        
     }
 ]

@@ -5,7 +5,6 @@ import { IState } from "../types/IState";
 import { $log } from "@tsed/logger";
 import { COUNTRY_REPOSITORY } from "../datasources/repositories/CountryRepository";
 import { STATE_REPOSITORY } from "../datasources/repositories/StateRepository";
-import { StateEntity } from "../datasources/entities/StateEntity";
 import cron from "node-cron";
 
 @Service()
@@ -43,7 +42,7 @@ export class ScraperService {
             // Hover table div to trigger data fetch
             await page.hover('div[jsaction="pSI0Dc:mMUZad;c6HY:uUug7c;rcuQ6b:npT2md;c0v8t:gmfnwb; mouseover:gmfnwb; touchstart:gmfnwb;"]');
 
-            let countries: ICountry[] = await page.$$eval('table[class="pH8O4c"] tbody tr', (rows) => {
+            const countries: ICountry[] = await page.$$eval('table[class="pH8O4c"] tbody tr', (rows) => {
                 return rows.map((row) => {
                     const tds = row.querySelectorAll("td") as any;
                     const spans = row.querySelectorAll("th div div") as any;

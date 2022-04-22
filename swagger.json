@@ -1,0 +1,196 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "version": "1.0.0",
+    "title": "Documentação Coronavírus API",
+    "description": "API pública para consulta de dados sobre o coronavírus (COVID-19) em países e estados de todo o mundo.",
+    "license": {
+      "name": "MIT License",
+      "url": "https://github.com/ArturMiguel/coronavirus-api/blob/master/LICENSE"
+    }
+  },
+  "paths": {
+    "/v1/countries": {
+      "get": {
+        "operationId": "countryControllerGetCountries",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CountryModel"
+                }
+              }
+            },
+            "description": "Success"
+          }
+        },
+        "description": "Retorna dados do coronavírus em todos os países.",
+        "summary": "Lista de países.",
+        "tags": [
+          "Países"
+        ],
+        "parameters": []
+      }
+    },
+    "/v1/countries/{id}": {
+      "get": {
+        "operationId": "countryControllerGetCountryById",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CountryModel"
+                }
+              }
+            },
+            "description": "Success"
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorModel"
+                }
+              }
+            },
+            "description": "Not Found"
+          }
+        },
+        "description": "Retorna dados do coronavírus de um país e seus estados.",
+        "summary": "Consulta por país",
+        "tags": [
+          "Países"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/v1/states/{id}": {
+      "get": {
+        "operationId": "stateControllerGetStateById",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StateModel"
+                }
+              }
+            },
+            "description": "Success"
+          },
+          "404": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorModel"
+                }
+              }
+            },
+            "description": "Not Found"
+          }
+        },
+        "description": "Retorna dados do coronavírus de um estado.",
+        "summary": "Consulta por estado",
+        "tags": [
+          "Estados"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Países"
+    },
+    {
+      "name": "Estados"
+    }
+  ],
+  "components": {
+    "schemas": {
+      "CountryModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "googleId": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "confirmed": {
+            "type": "string"
+          },
+          "death": {
+            "type": "string"
+          },
+          "states": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StateModel"
+            }
+          },
+          "updatedAt": {
+            "type": "string"
+          }
+        }
+      },
+      "StateModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "googleId": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "confirmed": {
+            "type": "string"
+          },
+          "death": {
+            "type": "string"
+          },
+          "countryId": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          }
+        }
+      },
+      "ErrorModel": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

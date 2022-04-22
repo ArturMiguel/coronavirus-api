@@ -2,6 +2,8 @@ import { Controller, Inject } from "@tsed/di";
 import { NotFound } from "@tsed/exceptions";
 import { PathParams } from "@tsed/platform-params";
 import { Description, Get, Returns, Summary, Tags } from "@tsed/schema";
+import { ErrorModel } from "../../models/ErrorModel";
+import { StateModel } from "../../models/StateModel";
 import { STATE_REPOSITORY } from "../../datasources/repositories/StateRepository";
 
 @Controller("/states")
@@ -13,7 +15,8 @@ export class StateController {
     @Get("/:id")
     @Summary("Consulta por estado")
     @Description("Retorna dados do coronavírus de um estado.")
-    @Returns(404)
+    @Returns(200, StateModel)
+    @Returns(404, ErrorModel)
     async getStateById(@PathParams("id") id: string) {
         const state = await this.stateRepository.findOne({
             where: {

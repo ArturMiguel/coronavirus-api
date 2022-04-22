@@ -7,7 +7,7 @@ import methodOverride from "method-override";
 import cors from "cors";
 import "@tsed/swagger";
 import { config } from "./config";
-import "./filters/HttpExceptionFilter";
+import "./HttpExceptionFilter";
 
 @Configuration({
     ...config,
