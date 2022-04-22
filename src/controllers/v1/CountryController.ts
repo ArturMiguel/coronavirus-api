@@ -27,7 +27,7 @@ export class CountryController {
     @Returns(404)
     async getCountryById(@PathParams("id") id: string) {
         const country = await this.countryRepository.createQueryBuilder("country")
-            .innerJoinAndSelect("country.states", "state")
+            .leftJoinAndSelect("country.states", "state")
             .where("country.id = :id", { id })
             .orderBy("state.name", "ASC")
             .getOne();
