@@ -13,8 +13,12 @@ export class CountryController {
     @Get("/")
     @Summary("Lista de países.")
     @Description("Retorna dados do coronavírus em todos os países.")
-    async getCountries() {
-        return this.countryRepository.find();
+    getCountries() {
+        return this.countryRepository.find({
+            order: {
+                name: "ASC"
+            }
+        });
     }
 
     @Get("/:id")
@@ -22,12 +26,11 @@ export class CountryController {
     @Description("Retorna dados do coronavírus de um país e seus estados.")
     @Returns(404)
     async getCountryById(@PathParams("id") id: string) {
-        const country = await this.countryRepository.findOne({
-            where: {
-                id
-            },
-            relations: ["states"]
-        }).catch(() => { });
+        const country = await this.countryRepository.createQueryBuilder("country")
+            .innerJoinAndSelect("country.states", "state")
+            .where("country.id = :id", { id })
+            .orderBy("state.name", "ASC")
+            .getOne();
         if (!country) throw new NotFound("Country not found!");
         return country;
     }

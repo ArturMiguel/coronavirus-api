@@ -18,6 +18,9 @@ export class StateController {
         const state = await this.stateRepository.findOne({
             where: {
                 id
+            },
+            order: {
+                name: "ASC"
             }
         }).catch(() => { });
         if (!state) throw new NotFound("State not found!");

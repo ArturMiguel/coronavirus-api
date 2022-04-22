@@ -25,7 +25,7 @@ export class StateEntity {
     @Column()
     countryId: string;
 
-    @CreateDateColumn({ type: "timestamptz" })
+    @CreateDateColumn({ type: "timestamptz", select: false })
     createdAt: Date;
 
     @UpdateDateColumn({ type: "timestamptz" })

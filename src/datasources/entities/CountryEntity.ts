@@ -21,7 +21,7 @@ export class CountryEntity {
     @OneToMany(() => StateEntity, stateEntity => stateEntity.country)
     states: StateEntity[];
 
-    @CreateDateColumn({ type: "timestamptz" })
+    @CreateDateColumn({ type: "timestamptz", select: false })
     createdAt: Date;
 
     @UpdateDateColumn({ type: "timestamptz" })
